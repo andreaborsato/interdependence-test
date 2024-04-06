@@ -242,12 +242,6 @@ h1{
 
 }
 
-
-body {
-  -ms-overflow-style: none; /* IE */
-  scrollbar-width: none; /* Firefox */
-}
-
 body::-webkit-scrollbar {
   display: none; /* Chrome, Safari, and newer versions of Opera */
 }
