@@ -35,31 +35,7 @@ h1{
 }
 
 
-#container:hover + .custom-cursor{
- opacity: 0;
-}
 
-
-
-
-
-.custom-cursor {
-  position: fixed;
-  opacity: 0;
-  pointer-events: none;
-  mix-blend-mode: difference;
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
-  background-color: white;
-  transition: transform 350ms ease;
-  transform: translate(-50%, -50%) scale(.3);
-  z-index: 1000;
-}
-
-.custom-cursor--link {
-  transform: translate(-50%, -50%) scale(.7);
-}
 
 .block {
   display: -webkit-flex;
@@ -183,6 +159,33 @@ h1{
    }
 
 
+   #container:hover + .custom-cursor{
+    opacity: 0;
+   }
+   
+   
+   
+   
+   
+   .custom-cursor {
+     position: fixed;
+     opacity: 0;
+     pointer-events: none;
+     mix-blend-mode: difference;
+     width: 8rem;
+     height: 8rem;
+     border-radius: 50%;
+     background-color: white;
+     transition: transform 350ms ease;
+     transform: translate(-50%, -50%) scale(.3);
+     z-index: 1000;
+   }
+   
+   .custom-cursor--link {
+     transform: translate(-50%, -50%) scale(.7);
+   }
+
+
  
 
 }
@@ -227,7 +230,7 @@ h1{
     font-size: 2rem;
     text-align: left;
     mix-blend-mode: difference;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 
   }
 
@@ -237,7 +240,6 @@ h1{
     overflow-y: hidden;
     margin-top: 3vh;
     scroll-snap-type: x mandatory; /* Enable horizontal snapping */
-
     /* justify-content: center; */
   }
 
@@ -246,15 +248,13 @@ h1{
     width: 50vw;
     margin-left: 5vw; /* Adjust as needed */
     margin-right: 5vw; /* Adjust as needed */
-    scroll-snap-align: start; /* Align to the start of the container */
-
-
+    scroll-snap-align: start; /* Align to the start of the container *//
   }
   .single-image-div img {
     width: 50vw;
+    border: .3vw solid black;
     margin-left: 5vw;
     margin-right: 5vw;
-    border: .3vh solid black;
   }  
 
   .single-image-div:first-child {
@@ -278,6 +278,18 @@ h1{
 } 
 
 
-body::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, and newer versions of Opera */
-}
+
+
+
+/* Hide horizontal scrollbar but allow scrolling */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefhttp://127.0.0.1:5503/sketches/images/mattonelle/economy/economic_0.jpgox */
+ }
+ 
+ body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+ }
+
+
+
