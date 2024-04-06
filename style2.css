@@ -192,6 +192,7 @@ h1{
 @media (max-width: 743px) {
 
   html{
+    touch-action: manipulation;
     cursor: none;
   }
   .text{
