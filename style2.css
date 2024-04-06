@@ -7,6 +7,11 @@
   src: url('font/Milligram-Text-Regular.ttf');
 }
 
+@font-face {
+  font-family: "Milligram Macro Medium";
+  src: url('font/milligram_macro_medium.otf');
+}
+
 
 * {
   margin: 0;
@@ -25,17 +30,21 @@ body {
 
 }
 
-
-
-
-
-
 h1{
   margin-top:0;
 }
 
-
-
+#main-title{
+  font-family: "Milligram Macro Medium";
+  font-size: 15vw;
+  width: 100vw;
+  height: auto;
+  color: white;
+  mix-blend-mode: difference;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
 
 .block {
   display: -webkit-flex;
@@ -73,12 +82,13 @@ h1{
     position: relative;
     /* left: 50%;  */
     margin: auto;
-    width: 100%;
+    margin-top: 2vh;
+    /* width: 100%; */
     font-family: "Milligram Bold";
-    font-size: 3rem;
+    font-size: 6vw;
     text-align: center;
     mix-blend-mode: difference;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* margin-top: 5vw;  */
   }
   .titoletti{
@@ -90,8 +100,8 @@ h1{
     font-size: 2rem;
     text-align: left;
     mix-blend-mode: difference;
-    border: 2px solid red;
-    /* margin-top: 5vw;  */
+    /* border: 2px solid red; */
+    margin-top: 10vh; 
   }
 
   .mattonelle-container{
@@ -104,6 +114,7 @@ h1{
   }
   .single-image-div{
     height: 50vh;
+    border: .3vw solid black;
     margin-left: 1vw;
     margin-right: 1vw;
   }
@@ -194,7 +205,7 @@ h1{
 @media (max-width: 743px) {
 
   html{
-    touch-action: manipulation;
+    /* touch-action: manipulation; */
     cursor: none;
   }
   .text{
@@ -213,10 +224,11 @@ h1{
     width: 50%;
     margin-left: 10vw;
     margin-right: 10vw;
+    margin-top: 2vh;
+    text-align: center;
     width: auto;
     font-family: "Milligram Bold";
-    font-size: 4rem;
-    text-align: left;
+    font-size: 8vw;
     mix-blend-mode: difference;
     /* margin-top: 5vw;  */
   }
@@ -230,7 +242,8 @@ h1{
     font-size: 2rem;
     text-align: left;
     mix-blend-mode: difference;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    margin-top: 10vh;
 
   }
 
