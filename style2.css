@@ -35,31 +35,7 @@ h1{
 }
 
 
-#container:hover + .custom-cursor{
- opacity: 0;
-}
 
-
-
-
-
-.custom-cursor {
-  position: fixed;
-  opacity: 0;
-  pointer-events: none;
-  mix-blend-mode: difference;
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
-  background-color: white;
-  transition: transform 350ms ease;
-  transform: translate(-50%, -50%) scale(.3);
-  z-index: 1000;
-}
-
-.custom-cursor--link {
-  transform: translate(-50%, -50%) scale(.7);
-}
 
 .block {
   display: -webkit-flex;
@@ -84,6 +60,31 @@ h1{
 
 /* DESKTOP */
 @media (min-width: 744px) {
+
+#container:hover + .custom-cursor{
+ opacity: 0;
+}
+
+.custom-cursor {
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: white;
+  transition: transform 350ms ease;
+  transform: translate(-50%, -50%) scale(.3);
+  z-index: 1000;
+}
+
+.custom-cursor--link {
+  transform: translate(-50%, -50%) scale(.7);
+}
+
+
+  
   .text{
     font-family: "Milligram Text";
     font-size: 1.2rem;
