@@ -1,0 +1,314 @@
+@font-face {
+  font-family: "Milligram Bold";
+  src: url('font/Milligram-Bold.ttf');
+}
+@font-face {
+  font-family: "Milligram Text";
+  src: url('font/Milligram-Text-Regular.ttf');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: none;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  /* overflow-x: hidden; */
+  background-color: white;
+  color: white;
+
+}
+
+
+
+
+
+
+h1{
+  margin-top:0;
+}
+
+
+#container:hover + .custom-cursor{
+ opacity: 0;
+}
+
+
+
+
+
+.custom-cursor {
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: white;
+  transition: transform 350ms ease;
+  transform: translate(-50%, -50%) scale(.3);
+  z-index: 1000;
+}
+
+.custom-cursor--link {
+  transform: translate(-50%, -50%) scale(.7);
+}
+
+.block {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  min-height: 300px;
+}
+
+
+
+
+.spacer12vh{
+  height: 12vh;
+}
+
+/* DESKTOP */
+@media (min-width: 744px) {
+  .text{
+    font-family: "Milligram Text";
+    font-size: 1.2rem;
+    width: 80%;
+    padding: 3vh 16.6vw 0vh 16.6vw;
+    margin: auto;
+    text-align: left;
+  }
+
+  .titoli{
+    position: relative;
+    /* left: 50%;  */
+    margin: auto;
+    width: 100%;
+    font-family: "Milligram Bold";
+    font-size: 3rem;
+    text-align: center;
+    mix-blend-mode: difference;
+    border: 2px solid red;
+    /* margin-top: 5vw;  */
+  }
+  .titoletti{
+    position: relative;
+    /* left: 50%;  */
+    margin-left: 3vw;
+    width: 47%;
+    font-family: "Milligram Bold";
+    font-size: 2rem;
+    text-align: left;
+    mix-blend-mode: difference;
+    border: 2px solid red;
+    /* margin-top: 5vw;  */
+  }
+
+  .mattonelle-container{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-left: 2vw;
+    margin-right: 2vw ;
+    margin-top: 3vh;
+  }
+  .single-image-div{
+    height: 50vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .single-image-div img{
+    height: 100%;
+    width: auto;
+  }
+
+  #selected-image {
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 90vh;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: .7rem;
+    mix-blend-mode: normal;
+    z-index: 100;
+   }
+  
+  
+   #selected-image img{
+    height: 100%;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+   }
+  
+   #esc{
+    position: absolute;
+    display: none;
+    top: 0%;
+    right: -15%;
+    width: 10vh;
+    height: 10vh;
+    background-color: white;
+    border: 2px solid red;
+    z-index: 100;
+   }
+  
+  
+   #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    z-index: 100; /* Ensure it's below the project-card but above other content */
+   }
+
+
+ 
+
+}
+
+/* MOBILE */
+@media (max-width: 743px) {
+
+  html{
+    cursor: none;
+  }
+  .text{
+    font-family: "Milligram Text";
+    font-size: 1rem;
+    width: auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 3vh;
+    text-align:left;
+  }
+
+  .titoli{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: auto;
+    font-family: "Milligram Bold";
+    font-size: 4rem;
+    text-align: left;
+    mix-blend-mode: difference;
+    /* margin-top: 5vw;  */
+  }
+
+  .titoletti{
+    position: relative;
+    /* left: 50%;  */
+    margin-left: 3vw;
+    width: 100%;
+    font-family: "Milligram Bold";
+    font-size: 2rem;
+    text-align: left;
+    mix-blend-mode: difference;
+    border: 2px solid red;
+
+  }
+
+  .mattonelle-container {
+    display: flex;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    margin-top: 3vh;
+    scroll-snap-type: x mandatory; /* Enable horizontal snapping */
+    /* justify-content: center; */
+  }
+
+  .single-image-div {
+    height: auto;
+    width: 90;
+    margin-left: 5vw; /* Adjust as needed */
+    margin-right: 5vw; /* Adjust as needed */
+    scroll-snap-align: start; /* Align to the start of the container *//
+  }
+  .single-image-div img {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }  
+
+  .single-image-div:first-child {
+    margin-left: 0; /* Remove left margin from the first image */
+  }
+  
+  .single-image-div:last-child {
+    margin-right: 0; /* Remove right margin from the last image */
+  }
+
+  .dot-container {
+    display: none;
+}
+  
+
+}
+
+.dot-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #000000;
+}
+
+
+.centered {
+  text-align: center;
+}
+
+ a{
+  text-decoration: none;
+  color: #E8197C;
+} 
+
+
+
+
+
+/* Hide horizontal scrollbar but allow scrolling */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefhttp://127.0.0.1:5503/sketches/images/mattonelle/economy/economic_0.jpgox */
+ }
+ 
+ body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+ }
+
+
+
