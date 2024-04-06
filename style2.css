@@ -191,9 +191,10 @@ h1{
 /* MOBILE */
 @media (max-width: 743px) {
 
-  html{
-    touch-action: manipulation;
+  
+  *{
     cursor: none;
+    touch-action: manipulation;
   }
   .text{
     font-family: "Milligram Text";
