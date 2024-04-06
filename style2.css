@@ -245,13 +245,13 @@ h1{
 
   .single-image-div {
     height: auto;
-    width: 90;
+    width: 50vw;
     margin-left: 5vw; /* Adjust as needed */
     margin-right: 5vw; /* Adjust as needed */
     scroll-snap-align: start; /* Align to the start of the container *//
   }
   .single-image-div img {
-    width: 90vw;
+    width: 50vw;
     margin-left: 5vw;
     margin-right: 5vw;
   }  
