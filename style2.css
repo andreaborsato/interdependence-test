@@ -301,18 +301,3 @@ h1{
 } 
 
 
-
-
-
-/* Hide horizontal scrollbar but allow scrolling */
-body {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefhttp://127.0.0.1:5503/sketches/images/mattonelle/economy/economic_0.jpgox */
- }
- 
- body::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, and Opera */
- }
-
-
-
