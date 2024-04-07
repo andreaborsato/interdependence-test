@@ -121,6 +121,7 @@ h1{
     border: .3vw solid black;
     margin-left: 1vw;
     margin-right: 1vw;
+    background-color: white;
   }
   .single-image-div img{
     height: 100%;
@@ -273,7 +274,8 @@ h1{
     width: 50vw;
     margin-left: 5vw; /* Adjust as needed */
     margin-right: 5vw; /* Adjust as needed */
-    scroll-snap-align: start; /* Align to the start of the container *//
+    scroll-snap-align: start; /* Align to the start of the container */
+    background-color: white;
   }
   .single-image-div img {
     width: 50vw;
