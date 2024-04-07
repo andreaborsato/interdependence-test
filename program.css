@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: "Milligram Bold";
+    src: url('font/Milligram-Bold.ttf');
+  }
+  @font-face {
+    font-family: "Milligram Text";
+    src: url('font/Milligram-Text-Regular.ttf');
+  }
+  @font-face {
+    font-family: "Milligram Macro Bold";
+    src: url('font/milligram_macro_bold.otf');
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+  }
+
+  html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: white;
+    color: white;
+  }
+  
+#back{
+    position: relative;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    font-size: 2rem;
+    width:fit-content;
+    margin:2vh 2vw;
+    margin-top: 2vh;
+    padding: 0 2vh;
+    border-radius: 100vh;
+}
+
+a{
+    color:white;
+}
+
+#program_container{
+margin:2vw;
+}
+
+p {
+  /* background-color: white; */
+  mix-blend-mode: difference;
+  font-family: Milligram Text;
+  width: 100%;
+  margin:0.5vh 0;
+  background-color: blueviolet;
+}
+
+#main-title{
+    font-family: "Milligram Macro Bold";
+    font-size: 15vw;
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+
+.program.titoli{
+    text-align: center;
+}
+  
+.dDay{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pDay.titoli{
+    margin:2vh 0;
+}
+
+.titoletti{
+    font-family: "Milligram Bold";
+    font-size: 2rem;
+  }
+
+  .name{
+    font-size: Milligram Bold;
+    margin-top: 1vh;
+  }
+
+  .incontro{
+   padding-bottom: 1vh; 
+    border-bottom: black 1px solid;
+  }
+  
