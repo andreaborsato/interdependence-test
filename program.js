@@ -39,9 +39,9 @@ for (let j = 0; j < incontri.length; j++) { //creo i div degli incontri
     divI.appendChild(p);
   }
 
-  for (let i = 1; i < 7; i++) { //li assegno ai giorni
+  for (let i = 0; i < 7; i++) { //li assegno ai giorni
     if (divI.classList.contains(i)) {
-      dDays[i].appendChild(divI);
+      dDays[i-1].appendChild(divI);
     }
   }
 }
