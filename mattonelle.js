@@ -172,7 +172,11 @@ function handleImageClick(event) {
         console.log("mobile click");
         // Open the clicked image in a new window
         let clickedImagePath = event.target.src;
-        window.open(clickedImagePath, '_blank');
+        let newWindow = window.open("", "_blank");
+        newWindow.document.write('<html><head><title>Image Viewer</title></head><body>');
+        newWindow.document.write('<img src="' + clickedImagePath + '" style="width:100vw; height:auto;">');
+        newWindow.document.write('</body></html>');
+        newWindow.document.close();
     
     }
 }
