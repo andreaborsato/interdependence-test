@@ -141,33 +141,40 @@ imgEl.addEventListener('load', function() {
 
 function handleImageClick(event) {
     console.log(window.innerWidth);
+
+
     if(window.innerWidth > 743){
+        disableScroll();
         let escButton = document.getElementById('esc');
-    clickedImagePath = event.target.src;
-    console.log('image creation');
-    myImage.style.display = "block";
-    escButton.style.display ="block";
-    overlay.style.display = "block";
-    
-    let selectedImage = document.createElement('img');
-    selectedImage.classList.add('single-project');
-    selectedImage.src = clickedImagePath;
-    myImage.appendChild(selectedImage);
+        clickedImagePath = event.target.src;
+        console.log('image creation');
+        myImage.style.display = "block";
+        escButton.style.display ="block";
+        overlay.style.display = "block";
+        
+        let selectedImage = document.createElement('img');
+        selectedImage.classList.add('single-project');
+        selectedImage.src = clickedImagePath;
+        myImage.appendChild(selectedImage);
 
-    escButton.addEventListener('click', function() {
-        console.log('image destroying');
-        myImage.style.display = "none";
-        overlay.style.display = "none";
-        escButton.style.display ="none";
-        if (selectedImage.parentNode) {
-            selectedImage.parentNode.removeChild(selectedImage);
-        }
-    })
+        escButton.addEventListener('click', function() {
+            enableScroll();
+            console.log('image destroying');
+            myImage.style.display = "none";
+            overlay.style.display = "none";
+            escButton.style.display ="none";
+            if (selectedImage.parentNode) {
+                selectedImage.parentNode.removeChild(selectedImage);
+            }
+        });
     }
-    
-
     if(window.innerWidth <= 743){
         console.log("mobile click");
+        console.log("mobile click");
+        // Open the clicked image in a new window
+        let clickedImagePath = event.target.src;
+        window.open(clickedImagePath, '_blank');
+    
     }
 }
 
@@ -216,8 +223,6 @@ window.addEventListener("resize", function() {
         }
     });
 });
-
-
 
 
 

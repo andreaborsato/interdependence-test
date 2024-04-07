@@ -46,6 +46,10 @@ h1{
   justify-content: center;
 }
 
+#main-title a{
+  color: white;
+}
+
 .block {
   display: -webkit-flex;
   display: -moz-flex;
@@ -132,8 +136,8 @@ h1{
     width: auto;
     height: 90vh;
     background-color: white;
-    border: 2px solid blue;
-    border-radius: .7rem;
+    border: 2px solid white;
+    /* border-radius: .7rem; */
     mix-blend-mode: normal;
     z-index: 100;
    }
@@ -147,15 +151,22 @@ h1{
    }
   
    #esc{
+
     position: absolute;
     display: none;
-    top: 0%;
-    right: -15%;
+    top: -0.5%;
+    right: -15.5%;
     width: 10vh;
     height: 10vh;
     background-color: white;
     border: 2px solid red;
     z-index: 100;
+    color: black;
+   }
+
+   #esc p {
+    font-family: "Milligram Bold";
+    font-size: 5vw;
    }
   
   
@@ -166,6 +177,7 @@ h1{
     width: 100vw;
     height: 100vh;
     backdrop-filter: blur(5px);
+    background-color: black;
     z-index: 100; /* Ensure it's below the project-card but above other content */
    }
 
@@ -278,6 +290,20 @@ h1{
     margin-right: 0; /* Remove right margin from the last image */
   }
 
+  #selected-image {
+    position: absolute;
+    top: 50%; /* Position the top edge of the element at the middle of the container */
+    left: 0; /* Align the left edge of the element with the left edge of the container */
+    transform: translateY(-50%); /* Shift the element up by half of its own height */
+    display: none;
+    width: 100vw;
+    height: auto;
+    background-color: white;
+    border: 2px solid white;
+    mix-blend-mode: normal;
+    z-index: 100;
+   }
+
 }
 
 
@@ -303,6 +329,4 @@ body {
  body::-webkit-scrollbar {
   display: none; /* Chrome, Safari, and Opera */
  }
-
-
 
