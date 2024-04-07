@@ -144,7 +144,6 @@ function handleImageClick(event) {
 
 
     if(window.innerWidth > 743){
-        disableScroll();
         let escButton = document.getElementById('esc');
         clickedImagePath = event.target.src;
         console.log('image creation');
@@ -158,7 +157,7 @@ function handleImageClick(event) {
         myImage.appendChild(selectedImage);
 
         escButton.addEventListener('click', function() {
-            enableScroll();
+
             console.log('image destroying');
             myImage.style.display = "none";
             overlay.style.display = "none";
