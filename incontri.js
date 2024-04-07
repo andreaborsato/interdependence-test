@@ -90,21 +90,21 @@ let incontri = [
         day: "5",//saturday
         time: "11.00-13.00",
         title:"Where Do We Go From Here",
-        name: "Campo Testrale",
+        name: "Campo Teatrale",
         description: "",
       },
       {
         day: "5",
         time: "15.00-17.00",
         title:"Where Do We Go From Here",
-        name: "Campo Testrale",
+        name: "Campo Teatrale",
         description: "",
       },
       {
         day: "5", 
         time: "18.00-20.00",
         title:"Where Do We Go From Here",
-        name: "Campo Testrale",
+        name: "Campo Teatrale",
         description: "",
       }, 
 
@@ -113,7 +113,7 @@ let incontri = [
         day: "6",//sunday
         time: "11.00-13.00",
         title:"Where Do We Go From Here",
-        name: "Campo Testrale",
+        name: "Campo Teatrale",
         description: "",
       },
   ];
