@@ -269,7 +269,7 @@ h1{
     box-sizing: border-box; /* This makes the width include the padding */
     width: fit-content;
     height: fit-content;
-    font-size: 4vw;
+    font-size: 6vw;
     border-radius: 4vw;
     padding: .5vw 2vw;
     display: flex;
