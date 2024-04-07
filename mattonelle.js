@@ -169,10 +169,17 @@ function handleImageClick(event) {
     }
     if(window.innerWidth <= 743){
         console.log("mobile click");
-        console.log("mobile click");
         // Open the clicked image in a new window
         let clickedImagePath = event.target.src;
-        window.open(clickedImagePath, '_blank');
+        let newWindow = window.open("", "_blank");
+        newWindow.document.write('<html><head><title>Image Viewer</title></head><body>');
+        newWindow.document.write('<img src="' + clickedImagePath + '" style="width:100vw; height:auto;">');
+        newWindow.document.write('</body></html>');
+        newWindow.document.close();
+
+
+
+        
     
     }
 }
@@ -226,3 +233,9 @@ window.addEventListener("resize", function() {
 
 
 
+// document.addEventListener('DOMContentLoaded', function() {
+//     const esc = document.getElementById('esc');
+//     const svg = esc.querySelector('svg');
+//     const vw = window.innerWidth / 100;
+//     svg.querySelector('circle').style.strokeWidth = `${2 * vw}px`;
+// });

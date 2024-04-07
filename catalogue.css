@@ -8,8 +8,8 @@
 }
 
 @font-face {
-  font-family: "Milligram Macro Medium";
-  src: url('font/milligram_macro_medium.otf');
+  font-family: "Milligram Macro Bold";
+  src: url('font/milligram_macro_bold.otf');
 }
 
 
@@ -35,7 +35,7 @@ h1{
 }
 
 #main-title{
-  font-family: "Milligram Macro Medium";
+  font-family: "Milligram Macro Bold";
   font-size: 15vw;
   width: 100vw;
   height: auto;
@@ -63,8 +63,6 @@ h1{
   height: 80vh;
   min-height: 300px;
 }
-
-
 
 
 .spacer12vh{
@@ -97,15 +95,20 @@ h1{
   }
   .titoletti{
     position: relative;
-    /* left: 50%;  */
+    box-sizing: border-box; /* This makes the width include the padding */
     margin-left: 3vw;
-    width: 47%;
+    width: fit-content;
+    height: fit-content;
     font-family: "Milligram Bold";
-    font-size: 2rem;
+    font-size: 2vw;
     text-align: left;
-    mix-blend-mode: difference;
+    border-radius: 4vw;
     /* border: 2px solid red; */
     margin-top: 10vh; 
+    padding: .5vw 2vw;
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: flex-start; /* Aligns items horizontally to the start */
   }
 
   .mattonelle-container{
@@ -122,6 +125,8 @@ h1{
     margin-left: 1vw;
     margin-right: 1vw;
     background-color: white;
+    mix-blend-mode: normal;
+
   }
   .single-image-div img{
     height: 100%;
@@ -137,8 +142,7 @@ h1{
     width: auto;
     height: 90vh;
     background-color: white;
-    border: 2px solid white;
-    /* border-radius: .7rem; */
+    border: .3vw solid black;
     mix-blend-mode: normal;
     z-index: 100;
    }
@@ -156,18 +160,21 @@ h1{
     position: absolute;
     display: none;
     top: -0.5%;
-    right: -15.5%;
-    width: 10vh;
-    height: 10vh;
-    background-color: white;
-    border: 2px solid red;
+    right: -14%;
+    width: 7vh;
+    height: 7vh;
+    /* background-color: white; */
+    /* border: 2px solid red; */
     z-index: 100;
     color: black;
    }
 
-   #esc p {
-    font-family: "Milligram Bold";
-    font-size: 5vw;
+   #esc img {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 5.5vh;
+    height: 5.5vh;
    }
   
   
@@ -178,7 +185,7 @@ h1{
     width: 100vw;
     height: 100vh;
     backdrop-filter: blur(5px);
-    background-color: black;
+    /* background-color: black; */
     z-index: 100; /* Ensure it's below the project-card but above other content */
    }
 
@@ -249,15 +256,25 @@ h1{
   .titoletti{
     position: relative;
     /* left: 50%;  */
-    margin-left: 3vw;
-    width: 100%;
+    margin-left: 4vw;
+    /* width: 100%; */
     font-family: "Milligram Bold";
-    font-size: 2rem;
+    /* font-size: 2rem; */
     text-align: left;
-    mix-blend-mode: difference;
     /* border: 2px solid red; */
     margin-top: 10vh;
 
+
+
+    box-sizing: border-box; /* This makes the width include the padding */
+    width: fit-content;
+    height: fit-content;
+    font-size: 6vw;
+    border-radius: 4vw;
+    padding: .5vw 2vw;
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: flex-start; /* Aligns items horizontally to the start */
   }
 
   .mattonelle-container {
@@ -276,6 +293,7 @@ h1{
     margin-right: 5vw; /* Adjust as needed */
     scroll-snap-align: start; /* Align to the start of the container */
     background-color: white;
+    mix-blend-mode: normal;
   }
   .single-image-div img {
     width: 50vw;
@@ -319,9 +337,6 @@ h1{
 } 
 
 
-
-
-
 /* Hide horizontal scrollbar but allow scrolling */
 body {
   -ms-overflow-style: none; /* IE and Edge */
@@ -331,4 +346,46 @@ body {
  body::-webkit-scrollbar {
   display: none; /* Chrome, Safari, and Opera */
  }
+
+#titoletto-economy{
+  background-color: #FFE500;
+  color: black;
+}
+
+#titoletto-commons{
+  background-color: #00BFFC;
+}
+
+#titoletto-technology{
+  background-color: #6100FF;
+  color: white;
+}
+
+#titoletto-wellbeing{
+  background-color: #C9DB00;
+  color: #000000;
+
+}
+
+#titoletto-culture{
+  background-color: #FF003D;
+  /* mix-blend-mode: difference; */
+}
+
+#titoletto-ecology{
+  background-color: #17E683;
+  color: black;
+  /* mix-blend-mode: difference; */
+}
+
+#titoletto-politics{
+  background-color: #CC00FF;
+  /* mix-blend-mode: difference; */
+}
+
+#titoletto-food{
+  background-color: #FF9900;
+  color: black;
+  /* mix-blend-mode: difference; */
+}
 
