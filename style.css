@@ -63,6 +63,34 @@ h1{
 }
 
 
+.footer {
+  position: relative;
+  width: 100vw;
+  margin-top: 10vh;
+  height: fit-content;
+  background-color: black;
+  align-items: center; /* Aligns items vertically in the center */
+  justify-content: center; /* Aligns items horizontally to the start */
+
+}
+
+.footer img{
+  padding: 4vh 3vw 4vh 3vw;
+  background-color: black;
+  mix-blend-mode: difference;
+
+}
+
+.ig{
+  position: relative;
+  font-family: "Milligram Text";
+  width: 100vw;
+  padding-top: 4vh;
+  padding-left: 3vw;
+  color: white;
+}
+
+
 .custom-cursor {
   position: fixed;
   opacity: 0;
