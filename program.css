@@ -48,6 +48,7 @@ a{
 
 #program_container{
 margin:2vw;
+padding-bottom: 5vh;
 }
 
 p {
@@ -56,12 +57,12 @@ p {
   font-family: Milligram Text;
   width: 100%;
   margin:0.5vh 0;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 
 #main-title{
     font-family: "Milligram Macro Bold";
-    font-size: 15vw;
+    font-size: 13.2vw;
     width: 100vw;
     height: auto;
     margin: auto;
@@ -75,28 +76,37 @@ p {
 }
   
 .dDay{
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     
 }
 
 .pDay.titoli{
-    margin:2vh 0;
+    margin:10vh 0 1vh 0;
 }
 
 .titoletti{
     font-family: "Milligram Bold";
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .name{
-    font-size: Milligram Bold;
+    font-family: Milligram Bold;
     margin-top: 1vh;
   }
 
+  .time{
+    background-color: white;
+    color:black;
+    width:fit-content;
+    padding: 0.5vh 2vh;
+    margin-bottom:1vh;
+    border-radius: 100vh;
+  }
+
   .incontro{
-   padding-bottom: 1vh; 
-    border-bottom: black 1px solid;
+   padding: 3vh 0; 
+   border-bottom: black 1px solid;
   }
   

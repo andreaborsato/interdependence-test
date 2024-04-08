@@ -1,59 +1,14 @@
-let dDay;
-
-let days = [
-  "Tuesday 16",
-  "Wednesday 17",
-  "Thurdsay 18",
-  "Friday 19",
-  "Saturday 20",
-  "Sunday 21",
-];
-
+let days = ["Tuesday 16", "Wednesday 17", "Thursday 18","Friday 19","Saturday 20","Sunday 21",];
 let propClass = ["day", "time", "title", "name", "description"];
 
-let incontri = [
-  {
-    day: "tuesday",
-    time: "18.30-22",
-    title: "Grand opening",
-    name: "",
-    description: "",
-  },
-  {
-    day: "wednesday",
-    time: "11.30-12.30",
-    title: "Material Intelligence_ Beyond Image.",
-    name: "Tania Winkler",
-    description:
-      "With both AI and Material Intelligence rooted in collective memory, this year superMATTER RCA Platform proposes materiality as container (repository) and signs of human capital to explore the incursion of new technologies in the production of new spatial identities.",
-  },
-  {
-    day: "wednesday",
-    time: "14.30-15.30",
-    title:
-      "Design and design schools in/for the ecological transition. Care, proximity, empowering, communing: four keywords to orient design education. ",
-    name: "Ezio Manzini",
-    description:
-      "How does the RCA Interior Design Programme engage with the challenges we are currently facing in the world? Climate Curriculums describes thinking and work that relates to climatic and socially based challenges.",
-  },
-  {
-    day: "wednesday",
-    time: "17-18",
-    title: "Graeme Brooker",
-    name: "Climate Curriculum(s)",
-    description:
-      "How does the RCA Interior Design Programme engage with the challenges we are currently facing in the world? Climate Curriculums describes thinking and work that relates to climatic and socially based challenges.",
-  },
-];
-
+let dDay;
 let pDay;
 let divI;
 let p;
 
 let programCtn = document.getElementById("program_container");
-//console.log(programCtn)
 
-for (let i = 0; i < days.length; i++) {
+for (let i = 0; i < days.length; i++) { //creo i giorni
   dDay = document.createElement("div");
   dDay.classList.add("dDay");
   dDay.setAttribute("id", days[i]);
@@ -68,21 +23,30 @@ for (let i = 0; i < days.length; i++) {
   programCtn.appendChild(dDay);
 }
 
-let dDayNodeList = document.getElementsByClassName("dDay");
-let dDays = Array.from(dDayNodeList);
-//console.log(dDays)
+let dDays = Array.from(document.getElementsByClassName("dDay"));
 
-//for (let j = 0; j < dDays.length; j++) {
-  for (let j = 0; j < incontri.length; j++) {
-    divI = document.createElement("div");
-    divI.classList.add("incontro");
-    console.log(divI);
-    programCtn.appendChild(divI);
+for (let j = 0; j < incontri.length; j++) { //creo i div degli incontri
+  divI = document.createElement("div");
+  divI.classList.add("incontro");
+  divI.classList.add(incontri[j].day);
+  console.log(divI);
+  programCtn.appendChild(divI);
 
-    for (let i = 0; i < 5; i++) {
-      p = document.createElement("p");
-      p.classList.add(propClass[i]);
-      divI.appendChild(p);
+  for (let i = 1; i < propClass.length; i++) { //creo i paragrafi
+    p = document.createElement("p");
+    p.classList.add(propClass[i]);
+    p.innerHTML = incontri[j][propClass[i]];
+    divI.appendChild(p);
+  }
+
+  for (let i = 0; i < 7; i++) { //li assegno ai giorni
+    if (divI.classList.contains(i)) {
+      dDays[i-1].appendChild(divI);
     }
   }
-//}
+}
+
+let titles = Array.from(document.getElementsByClassName("title"));
+titles.forEach((e) => {
+  e.classList.add("titoletti");
+});
