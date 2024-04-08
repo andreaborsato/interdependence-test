@@ -47,7 +47,7 @@ a{
 }
 
 #program_container{
-margin:2vw;
+margin:6vw;
 padding-bottom: 5vh;
 }
 
@@ -110,3 +110,13 @@ p {
    border-bottom: black 1px solid;
   }
   
+
+  @media (max-width: 744px) {
+    #program_container{
+      margin:3vw;
+      padding-bottom: 5vh;
+      }
+      .pDay.titoli{
+        font-size:10vw;
+    }
+  }
