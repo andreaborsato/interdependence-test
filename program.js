@@ -35,6 +35,7 @@ for (let j = 0; j < incontri.length; j++) { //creo i div degli incontri
   for (let i = 1; i < propClass.length; i++) { //creo i paragrafi
     p = document.createElement("p");
     p.classList.add(propClass[i]);
+    //p.classList.add("text");
     p.innerHTML = incontri[j][propClass[i]];
     divI.appendChild(p);
   }
