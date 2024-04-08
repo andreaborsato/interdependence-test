@@ -1,3 +1,39 @@
+@font-face {
+  font-family: "Milligram Bold";
+  src: url('font/Milligram-Bold.ttf');
+}
+@font-face {
+  font-family: "Milligram Text";
+  src: url('font/Milligram-Text-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Milligram Macro Bold";
+  src: url('font/milligram_macro_bold.otf');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: none;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  /* overflow-x: hidden; */
+  background-color: white;
+  color: white;
+
+}
+
+h1{
+  margin-top:0;
+}
+
 .homeButton {
     text-align: center;
     position: relative;
@@ -10,6 +46,22 @@
     /* border: 2px solid red; */
     color: black;
     /* margin-top: 5vw;  */
+}
+
+#main-title{
+  font-family: "Milligram Macro Bold";
+  font-size: 13.2vw;
+  width: 100vw;
+  height: auto;
+  color: white;
+  mix-blend-mode: difference;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+#main-title a{
+  color: white;
 }
 
 .containerLocation {
