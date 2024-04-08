@@ -121,5 +121,13 @@ p {
       }
       .pDay.titoli{
         font-size:10vw;
+        margin:6vh 0 1vh 0;
+    }
+
+    .titoletti{
+      font-size: 1.5rem;
+    }
+    .incontro{
+      padding:3vh 0;
     }
   }
