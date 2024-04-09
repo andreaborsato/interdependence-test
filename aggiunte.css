@@ -47,6 +47,7 @@ h1{
 }
 
 #main-title a{
+  text-decoration: none;
   color: white;
 }
 

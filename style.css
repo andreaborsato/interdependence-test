@@ -63,7 +63,9 @@ h1{
 }
 
 
-
+a {
+  color: white;
+}
  
  
  
@@ -212,7 +214,7 @@ span {
     margin-right: auto;
    }
    
-   .website-container2 {
+   .website-container5 {
     font-family: "Milligram Text";
     display: flex;
     flex-direction: column;
@@ -227,16 +229,25 @@ span {
     font-family: "Milligram Text";
     display: flex;
     flex-direction: column;
-    width: 64%; /* Each container takes up half the width of the footer */
+    width: 25%; /* Each container takes up half the width of the footer */
     position: relative;
     padding-top: 4vh;
     color: white;
     margin-left: 4vw; /* Centers the containers within the footer */
    }
-  
-  
+   .website-container2 {
+    font-family: "Milligram Text";
+    display: flex;
+    flex-direction: column;
+    width: 30%; /* Each container takes up half the width of the footer */
+    position: relative;
+    padding-top: 4vh;
+    color: white;
    
-   .website-container2 img {
+   }
+
+   
+   .website-container5 img {
     width: 100%; /* Makes the image responsive */
     padding-top: 2vh;
    }
@@ -247,7 +258,6 @@ span {
     position: relative;
     display: flex;
     width: auto;
-    justify-content: space-between; /* or use space-evenly for equal spacing */
     text-align: left;
    }
    
@@ -266,7 +276,6 @@ span {
     margin-top: 4vh;
   
   }
-  
   
   .wrapper{
     display: flex;
@@ -369,10 +378,7 @@ span {
   text-align: center;
 }
 
- a{
-  text-decoration: none;
-  color: #E8197C;
-} 
+
 
 
 .subthemes{
