@@ -26,6 +26,13 @@ let incontri = [
         "How does the RCA Interior Design Programme engage with the challenges we are currently facing in the world? Climate Curriculums describes thinking and work that relates to climatic and socially based challenges.",
     },
     {
+      day: "2",
+      time: "15.30-16.30",
+      title:"The Hidden Neighborhood.",
+      name: "Francesca Piredda",
+      description: "In collaboration with Off Campus San Vittore, design students developed transmedia documentaries to include prison in the storytelling of the neighborhood. | Il Quartiere nascosto. In collaborazione con Off Campus San Vittore, gli studenti di design hanno sviluppato documentari transmediali per includere il carcere di San Vittore nel racconto del quartiere",
+    },
+    {
       day: "2", 
       time: "17.00-18.00",
       title: "Climate Curriculum(s)",

@@ -44,6 +44,7 @@
 
 a{
     color:white;
+    mix-blend-mode: difference;
 }
 
 #program_container{
@@ -54,7 +55,7 @@ padding-bottom: 5vh;
 p {
   /* background-color: white; */
   mix-blend-mode: difference;
-  font-family: Milligram Text;
+  font-family: "Milligram Text";
   width: 100%;
   margin:0.5vh 0;
   font-size: 1.2rem;
@@ -70,7 +71,6 @@ p {
     text-align: center;
     justify-content: center;
   }
-
 
 .program.titoli{
     text-align: center;

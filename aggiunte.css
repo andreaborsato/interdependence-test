@@ -1,16 +1,46 @@
-.homeButton {
+
+
+@font-face {
+  font-family: "Milligram Bold";
+  src: url('font/Milligram-Bold.ttf');
+}
+@font-face {
+  font-family: "Milligram Text";
+  src: url('font/Milligram-Text-Regular.ttf');
+}
+@font-face {
+  font-family: "Milligram Macro Bold";
+  src: url('font/milligram_macro_bold.otf');
+}
+
+a{
+  color:white;
+  mix-blend-mode: difference;
+}
+
+#main-title{
+  font-family: "Milligram Macro Bold";
+  font-size: 13.2vw;
+  width: 100vw;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+/* .homeButton {
     text-align: center;
     position: relative;
-    /* left: 50%;  */
+    left: 50%;
     margin: auto;
     margin-top: 5px;
     width: 20%;
     font-family: "Milligram Bold";
     font-size: 2rem;
-    /* border: 2px solid red; */
+     border: 2px solid red;
     color: black;
-    /* margin-top: 5vw;  */
-}
+    margin-top: 5vw;
+} */
 
 .containerLocation {
   display: flex;
@@ -44,6 +74,12 @@
 .imgLocation {
   width: 100%;
 }
+
+.button-places{
+  background-color: white;
+  color:black;
+}
+
 
 
   /* MOBILE */
