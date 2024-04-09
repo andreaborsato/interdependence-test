@@ -45,6 +45,11 @@ h1{
   padding: 0 2vh;
   border-radius: 100vh;
 }
+a{
+  color:white;
+  mix-blend-mode: difference;
+  text-decoration: none;
+}
 
 #main-title{
   font-family: "Milligram Macro Bold";
@@ -343,10 +348,10 @@ h1{
   text-align: center;
 }
 
- a{
+ /* a{
   text-decoration: none;
   color: #E8197C;
-} 
+}  */
 
 
 /* Hide horizontal scrollbar but allow scrolling */
