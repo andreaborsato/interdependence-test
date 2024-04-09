@@ -63,51 +63,27 @@ h1{
 }
 
 
-.footer {
-  position: relative;
-  width: 100vw;
-  margin-top: 10vh;
-  height: fit-content;
-  background-color: black;
-  align-items: center; /* Aligns items vertically in the center */
-  justify-content: center; /* Aligns items horizontally to the start */
-
-}
-
-.footer img{
-  padding: 4vh 3vw 4vh 3vw;
-  background-color: black;
-  mix-blend-mode: difference;
-
-}
-
-.ig{
-  position: relative;
-  font-family: "Milligram Text";
-  width: 100vw;
-  padding-top: 4vh;
-  padding-left: 3vw;
+a {
   color: white;
 }
+ 
+ 
+ 
 
-
-.custom-cursor {
-  position: fixed;
-  opacity: 0;
-  pointer-events: none;
-  mix-blend-mode: difference;
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
-  background-color: white;
-  transition: transform 350ms ease;
-  transform: translate(-50%, -50%) scale(.3);
-  z-index: 1000;
+website-link{
+  display: flex;
+  position: relative;
+  font-family: "Milligram Text";
+  /* width: 25%; */
+  padding-top: 4vh;
+  margin-bottom: 4vh;
+  right: 0%;
+  color: white;
+  justify-content: center;
 }
 
-.custom-cursor--link {
-  transform: translate(-50%, -50%) scale(.7);
-}
+
+
 
 .block {
   display: -webkit-flex;
@@ -208,6 +184,110 @@ span {
     mix-blend-mode: difference;
     align-items: center;
   }
+
+  .custom-cursor {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 350ms ease;
+    transform: translate(-50%, -50%) scale(.3);
+    z-index: 1000;
+  }
+  
+  .custom-cursor--link {
+    transform: translate(-50%, -50%) scale(.7);
+  }
+
+  .footer {
+    display: flex;
+    width: 100vw;
+    height: fit-content;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   
+   .website-container5 {
+    font-family: "Milligram Text";
+    display: flex;
+    flex-direction: column;
+    width: 28%; /* Each container takes up half the width of the footer */
+    position: relative;
+    padding-top: 4vh;
+    color: white;
+    margin-right: 4vw; /* Centers the containers within the footer */
+    margin-left: 4vw;
+   }
+   .website-container1 {
+    font-family: "Milligram Text";
+    display: flex;
+    flex-direction: column;
+    width: 25%; /* Each container takes up half the width of the footer */
+    position: relative;
+    padding-top: 4vh;
+    color: white;
+    margin-left: 4vw; /* Centers the containers within the footer */
+   }
+   .website-container2 {
+    font-family: "Milligram Text";
+    display: flex;
+    flex-direction: column;
+    width: 30%; /* Each container takes up half the width of the footer */
+    position: relative;
+    padding-top: 4vh;
+    color: white;
+   
+   }
+
+   
+   .website-container5 img {
+    width: 100%; /* Makes the image responsive */
+    padding-top: 2vh;
+   }
+  
+   
+   /* Add this to make the .website divs on the same line and evenly spaced */
+   .website-spacer {
+    position: relative;
+    display: flex;
+    width: auto;
+    text-align: left;
+   }
+   
+   .website-spacer > div {
+    position: relative;
+    width: fit-content;
+   }
+   
+   /* Additional CSS for the text container to make it fit the entire width */
+    .text-container {
+    width: fit-content;
+    text-align: left; /* Centers the text horizontally */
+   }
+   
+  .footer-text{
+    margin-top: 4vh;
+  
+  }
+  
+  .wrapper{
+    display: flex;
+    position: relative;
+  }
+  
+  .first{ 
+    margin-top: 0;
+  }
+
+
+
 }
 
 /* MOBILE */
@@ -298,10 +378,7 @@ span {
   text-align: center;
 }
 
- a{
-  text-decoration: none;
-  color: #E8197C;
-} 
+
 
 
 .subthemes{
