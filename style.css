@@ -91,23 +91,7 @@ h1{
 }
 
 
-.custom-cursor {
-  position: fixed;
-  opacity: 0;
-  pointer-events: none;
-  mix-blend-mode: difference;
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
-  background-color: white;
-  transition: transform 350ms ease;
-  transform: translate(-50%, -50%) scale(.3);
-  z-index: 1000;
-}
 
-.custom-cursor--link {
-  transform: translate(-50%, -50%) scale(.7);
-}
 
 .block {
   display: -webkit-flex;
@@ -207,6 +191,24 @@ span {
     width: 90%;
     mix-blend-mode: difference;
     align-items: center;
+  }
+
+  .custom-cursor {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 350ms ease;
+    transform: translate(-50%, -50%) scale(.3);
+    z-index: 1000;
+  }
+  
+  .custom-cursor--link {
+    transform: translate(-50%, -50%) scale(.7);
   }
 }
 
