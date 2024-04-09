@@ -161,6 +161,13 @@ h1{
  position: relative;
 }
 
+.button-places.clicked {
+  border: 3px solid black;
+  background-color: white;
+  color: black;
+  position: relative;
+ }
+
 span {
  /* border: 2px solid red; */
  display: inline-block;
