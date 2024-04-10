@@ -288,6 +288,7 @@ a{
     position: relative;
     /* left: 50%;  */
     margin-left: 4vw;
+    margin-right: 4vw;
     /* width: 100%; */
     font-family: "Milligram Bold";
     /* font-size: 2rem; */
@@ -296,7 +297,7 @@ a{
     margin-top: 8vh;
     box-sizing: border-box; /* This makes the width include the padding */
     width: fit-content;
-    max-width: 88vw;
+    max-width: 92vw;
     height: fit-content;
     font-size: 1.5rem;
     border-radius: 4vw;
