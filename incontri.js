@@ -53,7 +53,14 @@ let incontri = [
       time: "14.00-15.30",
       title:"Alimentazione del Futuro: verso un Mondo Sostenibile",
       name: "Marita Canina & students",
-      description: "Un talk a più voci del Dipartimento per il Future Food del Ministero per il Futuro. Unisciti a noi mentre immaginiamo insieme un futuro in cui il cibo non solo nutre il corpo, ma anche il pianeta. </br>  [event in Italiano]",
+      description: "Un talk a più voci del Dipartimento per il Future Food del Ministero per il Futuro. Unisciti a noi mentre immaginiamo insieme un futuro in cui il cibo non solo nutre il corpo, ma anche il pianeta. </br></br> [event in Italian]",
+    },
+    {
+      day: "3", 
+      time: "16.30-17.30",
+      title: "Phenomenology of a young design student ",
+      name: "Collettivo STUPIDIO",
+      description: "Exhaustion in front of the screen, anxiety about the future, but a burning desire for knowledge (and to make it shine before the eyes of others). Will new designers be able to emerge from the storm of doubts and long hours spent at the computer? </br> </br>  [event in Italian]",
     },
     {
       day: "3", 
@@ -62,6 +69,7 @@ let incontri = [
       name: "Master Jiqun",
       description: "Buddist master Jiqun meets students, scholars and designers.",
     },
+
 
     {
         day: "4",//friday
@@ -87,9 +95,9 @@ let incontri = [
       {
         day: "4", 
         time: "17.00-18.00",
-        title: "Esoeditoria per l’innovazione sociale",
+        title: "Exo-publishing for social innovation",
         name: "Elena Caratti",
-        description: "Social Indie Magazines come espressione dell’interdipendenza fra aree di ricerca, contenuti, codici e il contesto socio-politico.",
+        description: "Social Indie Magazines as an expression of the interdependence between research areas, content, codes and the socio-political context.</br> </br>  [event in Italian]",
       },
 
 
