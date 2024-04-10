@@ -107,7 +107,7 @@ website-link{
   height: 8vh;
 }
 
-/* #buttonContainer {
+#buttonContainer {
 
   text-align: center;
   margin-left: 2vw;
@@ -129,7 +129,7 @@ website-link{
   background-color: black;
   color: white;
   text-align: center;
-} */
+}
 
 
 
@@ -154,6 +154,8 @@ span {
  line-height: normal;
 }
 
+
+/* DESKTOP */
 @media (min-width: 744px) {
   .text{
     font-family: "Milligram Text";
@@ -190,29 +192,27 @@ span {
     align-items: center;
   }
 
-  #buttonContainer {
-    display: flex; /* Makes the container a flex container */
-    justify-content: space-between; /* Distributes space between the buttons evenly */
-    text-align: center;
-    margin-left: 2vw; /* Adjusted to 4vw for desired margin */
-    margin-right: 2vw; /* Adjusted to 4vw for desired margin */
-    width: auto;
+  /* #buttonContainer {
+    display: flex; 
+    justify-content: space-between; 
+    margin-left: 2vw; 
+    margin-right: 2vw; 
    }
    
    .button-places {
     font-family: "Milligram Bold";
-    font-size: 1.3vw;
+    font-size: 1.2rem;
     width: 20vw;
     height: 8vh;
     line-height: 7.2vh;
-    margin: auto; /* Centers the buttons within the container */
+    margin: auto; 
     display: inline-table;
     border: 3px solid black;
     border-radius: 50px;
     background-color: black;
     color: white;
     text-align: center;
-   }
+   } */
 
   .custom-cursor {
     position: fixed;
@@ -376,6 +376,7 @@ span {
     margin: 1vw 1vw;
     display: inline-table;
  }
+
 
  
  .spacer12vh{
