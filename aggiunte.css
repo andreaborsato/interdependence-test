@@ -84,6 +84,11 @@ h1{
   width: 100%;
 }
 
+.boldTextLocation  {
+  font-family: "Milligram Bold";
+
+}
+
 
   /* MOBILE */
 @media (max-width: 743px) {
