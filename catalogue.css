@@ -153,8 +153,14 @@ a{
 
 
   .theme-description{
+    font-family: "Milligram Text";
+    font-size: 1.2rem;
+    color: #000000;
     position: relative;
     margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    margin-right: 30vw;
   }
 
   #selected-image {
