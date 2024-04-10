@@ -226,8 +226,8 @@ span {
     position: relative;
     padding-top: 4vh;
     color: white;
-    margin-right: 4vw; /* Centers the containers within the footer */
-    margin-left: 4vw;
+    margin-right: 2vw; /* Centers the containers within the footer */
+    margin-left: 2vw;
    }
    .website-container1 {
     font-family: "Milligram Text";
@@ -237,7 +237,7 @@ span {
     position: relative;
     padding-top: 4vh;
     color: white;
-    margin-left: 4vw; /* Centers the containers within the footer */
+    margin-left: 2vw; /* Centers the containers within the footer */
    }
    .website-container2 {
     font-family: "Milligram Text";
@@ -286,6 +286,9 @@ span {
     margin-top: 0;
   }
 
+  #credits{
+    display: none;
+  }
 
 
 }
@@ -379,12 +382,14 @@ span {
   padding-top: 4vh;
   width: 46%;
   margin-left: 4vw;
+
  }
  
  #column-50r {
   padding-top: 4vh;
   width: 46%;
   text-align: right; /* Aligns text to the right */
+  display: none;
  }
 
  #column-50l-2 {

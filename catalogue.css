@@ -54,12 +54,13 @@ a{
 
 #main-title{
   font-family: "Milligram Macro Bold";
-  font-size: 13.2vw;
+  font-size: 13.5vw;
   width: 100vw;
   height: auto;
   color: white;
   mix-blend-mode: difference;
-  margin: auto;
+  margin-left: 2vw;
+  margin-right: 2vw;
   text-align: center;
   justify-content: center;
 }
@@ -114,15 +115,14 @@ a{
   .titoletti{
     position: relative;
     box-sizing: border-box; /* This makes the width include the padding */
-    margin-left: 3vw;
+    margin-left: 2vw;
     width: fit-content;
     height: fit-content;
     font-family: "Milligram Bold";
     font-size: 2vw;
     text-align: left;
     border-radius: 4vw;
-    /* border: 2px solid red; */
-    margin-top: 10vh; 
+    margin-top: 8vh; 
     padding: .5vw 2vw;
     display: flex;
     align-items: center; /* Aligns items vertically in the center */
@@ -140,7 +140,7 @@ a{
   .single-image-div{
     height: 50vh;
     border: .3vw solid black;
-    margin-left: 1vw;
+    /* margin-left: 1vw; */
     margin-right: 1vw;
     background-color: white;
     mix-blend-mode: normal;
@@ -149,6 +149,12 @@ a{
   .single-image-div img{
     height: 100%;
     width: auto;
+  }
+
+
+  .theme-description{
+    position: relative;
+    margin-top: 2vh;
   }
 
   #selected-image {
@@ -281,9 +287,6 @@ a{
     text-align: left;
     /* border: 2px solid red; */
     margin-top: 10vh;
-
-
-
     box-sizing: border-box; /* This makes the width include the padding */
     width: fit-content;
     height: fit-content;
@@ -307,8 +310,8 @@ a{
   .single-image-div {
     height: auto;
     width: 50vw;
-    margin-left: 5vw; /* Adjust as needed */
-    margin-right: 5vw; /* Adjust as needed */
+    margin-left: 4vw; /* Adjust as needed */
+    margin-right: 4vw; /* Adjust as needed */
     scroll-snap-align: start; /* Align to the start of the container */
     background-color: white;
     mix-blend-mode: normal;
@@ -316,8 +319,8 @@ a{
   .single-image-div img {
     width: 50vw;
     border: .3vw solid black;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
   }  
 
   .single-image-div:first-child {
@@ -348,12 +351,6 @@ a{
 .centered {
   text-align: center;
 }
-
- /* a{
-  text-decoration: none;
-  color: #E8197C;
-}  */
-
 
 /* Hide horizontal scrollbar but allow scrolling */
 body {
