@@ -84,7 +84,6 @@ website-link{
 
 
 
-
 .block {
   display: -webkit-flex;
   display: -moz-flex;
@@ -108,18 +107,17 @@ website-link{
 }
 
 #buttonContainer {
-
   text-align: center;
-  margin-left: 2vw;
-  margin-right: 2vw;
-  width: 96vw;
-
+  width: 98vw;
+  margin: 4vh 0.6vw 8vh 0.6vw;
+  /* margin: 4vh 2vw; */
+  /* height: 8vh; */
 }
 
 .button-places {
   font-family: "Milligram Bold";
-  font-size: 1.3vw;
-  width: 20vw;
+  font-size: 1.2vw;
+  width: 22.1vw;
   height: 8vh;
   line-height: 7.2vh;
   margin: 0% 1vw;
@@ -379,14 +377,21 @@ span {
     mix-blend-mode: difference;
   }
 
-  .button-places {
+ .button-places {
     font-family: "Milligram Bold";
-    font-size: 2.7vw;
-    width: 40vw;
+    font-size: 3.2vw;
+    width: 44vw;
     height: 8vh;
     line-height: 7.2vh;
-    margin: 1vw 1vw;
+    margin: 1vw 1.5vw;
     display: inline-table;
+  }
+
+ .button-places:hover {
+  border: 3px solid black;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
  }
 
 
@@ -394,14 +399,21 @@ span {
  .spacer12vh{
   height: 8vh;
 }
+ #buttonContainer {
+  width: 96vw;
+  margin: 2vh 2vw 4vh 2vw;
+ }
 
-.spacer8vh{
-  height: 6vh;
-}
+ .spacer12vh {
+    height: 8vh;
+  }
+
+ .spacer8vh {
+    height: 4vh;
+  }
 
 .footer-desktop {
-  display: none;
-
+   display: none;
  }
 
  .footer-mobile {
@@ -483,26 +495,15 @@ span {
   flex-basis: 100%;
   height: 0;
  }
- 
- 
-
- 
-
-
-
-
-
-
 
 }
 
 
-
-
-
-
-
-
+.partnerLogos img{
+  height: 100%;
+  width: auto;
+  mix-blend-mode: difference;
+}
 
 .subthemes {
   width: 50%;
@@ -510,13 +511,9 @@ span {
   position: relative;
 }
 
-
 .centered {
   text-align: center;
 }
-
-
-
 
 .subthemes{
   width: 100%;
@@ -547,10 +544,3 @@ span {
   height: auto;
 
 }
-
-
-
-
-
-
-
