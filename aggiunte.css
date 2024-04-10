@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
   font-family: "Milligram Bold";
   src: url('font/Milligram-Bold.ttf');
 }
@@ -10,9 +10,9 @@
 @font-face {
   font-family: "Milligram Macro Bold";
   src: url('font/milligram_macro_bold.otf');
-} */
+}
 
-/* 
+
 * {
   margin: 0;
   padding: 0;
@@ -25,17 +25,15 @@ html {
 body {
   min-height: 100%;
   /* overflow-x: hidden; */
-  /* background-color: white;
+  background-color: white;
   color: white;
 
 }
 
 h1{
   margin-top:0;
-}  */
+}
 
-
-/* LOGONE MAXI */
 #main-title{
   font-family: "Milligram Macro Bold";
   font-size: 13.2vw;
@@ -53,26 +51,28 @@ h1{
   color: white;
 }
 
-
-/* LOCATION */
 .containerLocation {
   display: flex;
+  /* border: 3px solid blue; */
+  /* text-align: center; */
+  /* position: relative; */
   margin-left: 6vw;
   margin-right: 6vw;
 }
 
 .imgLocationContainer {
+  /* border: 2px solid red; */
   width: 45vw;
+  /* display: inline-block; */
   margin-right: 1.2vw;
-}
 
-.imgLocation {
-  width: 100%;
 }
 
 .textLocationContainer {
+  /* border: 2px solid green; */
   width: 45vw;
   position: relative;
+  /* display: inline; */
   color: black;
   text-align: left;
   font-family: "Milligram Text";
@@ -80,14 +80,10 @@ h1{
   margin-left: 1.2vw;
 }
 
-b { 
-  font-family: "Milligram Bold";
+.imgLocation {
+  width: 100%;
 }
 
-/* BOTTONI */
-#buttonContainer {
-  margin: 4vh 4vw;
-}
 
   /* MOBILE */
 @media (max-width: 743px) {
