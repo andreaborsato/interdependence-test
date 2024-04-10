@@ -337,6 +337,17 @@ a{
     margin-right: 0; /* Remove right margin from the last image */
   }
 
+  .theme-description{
+    font-family: "Milligram Text";
+    font-size: 1rem;
+    color: #000000;
+    position: relative;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+
   #selected-image {
     position: absolute;
     top: 50%; /* Position the top edge of the element at the middle of the container */
