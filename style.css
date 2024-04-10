@@ -107,10 +107,9 @@ website-link{
 }
 
 #buttonContainer {
-
   text-align: center;
   width: 98vw;
-  margin: 4vh 0.5vw 8vh 0.5vw;
+  margin: 4vh 0.6vw 8vh 0.6vw;
   /* margin: 4vh 2vw; */
   /* height: 8vh; */
 }
@@ -118,7 +117,7 @@ website-link{
 .button-places {
   font-family: "Milligram Bold";
   font-size: 1.2vw;
-  width: 22vw;
+  width: 22.1vw;
   height: 8vh;
   line-height: 7.2vh;
   margin: 0% 1vw;
