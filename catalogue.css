@@ -1,16 +1,4 @@
-@font-face {
-  font-family: "Milligram Bold";
-  src: url('font/Milligram-Bold.ttf');
-}
-@font-face {
-  font-family: "Milligram Text";
-  src: url('font/Milligram-Text-Regular.ttf');
-}
 
-@font-face {
-  font-family: "Milligram Macro Bold";
-  src: url('font/milligram_macro_bold.otf');
-}
 
 
 * {

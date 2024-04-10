@@ -1,0 +1,12 @@
+
+canvas {
+    display: block;
+    cursor: none;
+  } 
+  
+  
+  #belowCanvas{
+    display: none;
+    top:201%;
+    color: black;
+  }
