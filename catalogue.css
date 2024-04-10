@@ -296,6 +296,7 @@ a{
     margin-top: 8vh;
     box-sizing: border-box; /* This makes the width include the padding */
     width: fit-content;
+    max-width: 88vw;
     height: fit-content;
     font-size: 1.5rem;
     border-radius: 4vw;
@@ -362,6 +363,10 @@ a{
     mix-blend-mode: normal;
     z-index: 100;
    } */
+
+  #selected-image {
+    display: none;
+   }
 
 }
 
