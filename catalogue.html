@@ -1,103 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="catalogue.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="aggiunte.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
-    <link href="https://unpkg.com/minibarjs@latest/dist/minibar.min.css" rel="stylesheet" type="text/css">
+  <title>interdependence</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
 
-    <title>Catalogue</title>
+  <link rel="stylesheet" href="css/catalogue.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+  <link href="https://unpkg.com/minibarjs@latest/dist/minibar.min.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    <div id="back">
-        <a href="pages/fabbricaVapore.html" > ← </a>
+  <!-- TASTO INDIETRO -->
+  <div id="back">
+    <a href="pages/fabbricaVapore.html"> ← </a>
+  </div>
+
+  <!-- <p>Soon available</p> -->
+  <div id="overlay" style="display: none; "></div>
+  <div id="main-title"><a href="index.html">interdependence</a></div>
+  <div class="titoli">Catalogue</div>
+
+  <div class="titoletti" id="titoletto-economy">Economy and Supply Chain</div>
+  <div class="mattonelle-container" id="economy"></div>
+  <div class="dot-container"></div>
+
+  <div class="titoletti" id="titoletto-commons">Commons</div>
+  <div class="mattonelle-container" id="commons"></div>
+  <div class="dot-container"></div>
+
+  <div class="titoletti" id="titoletto-culture">Culture and Information</div>
+  <div class="mattonelle-container" id="culture"></div>
+  <div class="dot-container"></div>
+
+  <div class="titoletti" id="titoletto-ecology">Ecology and Natural Rasources</div>
+  <div class="mattonelle-container" id="ecology"></div>
+  <div class="dot-container"></div>
+
+  <div class="titoletti" id="titoletto-technology">Technology</div>
+  <div class="mattonelle-container" id="technology"></div>
+  <div class="dot-container"></div>
+
+  <div class="titoletti" id="titoletto-politics">Politics and Society</div>
+  <div class="mattonelle-container" id="politics"></div>
+  <div class="dot-container"></div>
+
+  <div class="titoletti" id="titoletto-wellbeing">Wellbeing</div>
+  <div class="mattonelle-container" id="wellbeing"></div>
+  <div class="dot-container"></div>
+
+  <div class="titoletti" id="titoletto-food">Food Resources</div>
+  <div class="mattonelle-container" id="food"></div>
+  <div class="dot-container"></div>
+
+
+
+
+
+  <div class="custom-cursor"></div>
+
+  <div id="selected-image">
+    <div id="esc">
+      <!-- <img src="images/esc_btn/cross_red.svg" alt=""> -->
+      <svg width="7vh" height="7vh" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width=".4vw" fill="#FF003D" />
+        <img src="images/esc_btn/cross_red.svg" style="z-index: 101;" alt="">
+      </svg>
     </div>
 
-    <!-- <p>Soon available</p> -->
-    <div id = "overlay"  style="display: none; " ></div>
-    <div id="main-title"><a href="index.html">interdependence</a></div>
-   <div class="titoli">Catalogue</div>
+  </div>
 
-   <div class="titoletti" id="titoletto-economy">Economy and Supply Chain</div>
-    <div class="mattonelle-container" id="economy"></div>
-    <div class="dot-container"></div>
-
-   <div class="titoletti" id="titoletto-commons">Commons</div>
-   <div class="mattonelle-container" id="commons"></div>
-   <div class="dot-container"></div>
-
-   <div class="titoletti" id="titoletto-culture">Culture and Information</div>
-   <div class="mattonelle-container" id="culture"></div>
-   <div class="dot-container"></div>
-
-   <div class="titoletti" id="titoletto-ecology">Ecology and Natural Rasources</div>
-   <div class="mattonelle-container" id="ecology"></div>
-   <div class="dot-container"></div>
-
-   <div class="titoletti" id="titoletto-technology">Technology</div>
-   <div class="mattonelle-container" id="technology"></div>
-   <div class="dot-container"></div>
-
-   <div class="titoletti" id="titoletto-politics">Politics and Society</div>
-   <div class="mattonelle-container" id="politics"></div>
-   <div class="dot-container"></div>
-
-   <div class="titoletti" id="titoletto-wellbeing">Wellbeing</div>
-   <div class="mattonelle-container" id="wellbeing"></div>
-   <div class="dot-container"></div>
-
-   <div class="titoletti" id="titoletto-food">Food Resources</div>
-   <div class="mattonelle-container" id="food"></div>
-   <div class="dot-container"></div>
-
-
-
-
-
-   <div class="custom-cursor"></div>
-      
-    <div id="selected-image">
-        <div id="esc">
-            <!-- <img src="images/esc_btn/cross_red.svg" alt=""> -->
-            <svg width="7vh" height="7vh" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="50" cy="50" r="40" stroke="black" stroke-width=".4vw" fill="#FF003D" />
-                <img src="images/esc_btn/cross_red.svg"  style="z-index: 101;"  alt="">
-            </svg>
-        </div>
-
-    </div>
-
-    <div class="footer">
-        <div class="website-container1">
-          <div class="website-spacer">
-            <div class="first"><a href="https://www.instagram.com/interdependence.polimi/" target="_blank">@interdependence.polimi</a></div>
-          </div>
-          <div class="website-spacer footer-text">
-            <div><a href="https://www.design.polimi.it/en" target="_blank">www.design.polimi.it</a></div>
-          </div>
-          <div class="website-spacer footer-text">
-            <div><a href="https://www.polidesign.net/en/" target="_blank">www.polidesign.net</a></div>
-          </div>
-        </div>
-
-        <div class="website-container2">
-          <div class="first"><a href="">credits</a></div>
-          <div class="footer-text"><a href="https://dipartimentodesign.polimi.it/en" target="_blank">www.dipartimentodesign.polimi.it</a></div>
-          <div class="footer-text"><a href="https://www.yesmilano.it/milano-design-week" target="_blank">Milano Design Week</a></div>
-        </div>
-
-        <div class="website-container5">
-          <div class="text-container">from an idea by</div>
-          <img src="./images/footer/loghi-sistema-desktop.svg" alt="" srcset="">
-        </div>
+  <div class="footer">
+    <div class="website-container1">
+      <div class="website-spacer">
+        <div class="first"><a href="https://www.instagram.com/interdependence.polimi/"
+            target="_blank">@interdependence.polimi</a></div>
       </div>
+      <div class="website-spacer footer-text">
+        <div><a href="https://www.design.polimi.it/en" target="_blank">www.design.polimi.it</a></div>
+      </div>
+      <div class="website-spacer footer-text">
+        <div><a href="https://www.polidesign.net/en/" target="_blank">www.polidesign.net</a></div>
+      </div>
+    </div>
+
+    <div class="website-container2">
+      <div class="first"><a href="">credits</a></div>
+      <div class="footer-text"><a href="https://dipartimentodesign.polimi.it/en"
+          target="_blank">www.dipartimentodesign.polimi.it</a></div>
+      <div class="footer-text"><a href="https://www.yesmilano.it/milano-design-week" target="_blank">Milano Design
+          Week</a></div>
+    </div>
+
+    <div class="website-container5">
+      <div class="text-container">from an idea by</div>
+      <img src="./images/footer/loghi-sistema-desktop.svg" alt="" srcset="">
+    </div>
+  </div>
 
 
-   <script src="cursor.js"></script>
-   <script src="mattonelle.js"></script>
+  <script src="cursor.js"></script>
+  <script src="mattonelle.js"></script>
 </body>
+
 </html>

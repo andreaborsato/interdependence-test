@@ -84,6 +84,10 @@ b {
   font-family: "Milligram Bold";
 }
 
+/* BOTTONI */
+#buttonContainer {
+  margin: 4vh 4vw;
+}
 
   /* MOBILE */
 @media (max-width: 743px) {

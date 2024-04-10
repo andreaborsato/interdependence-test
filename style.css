@@ -32,25 +32,18 @@ body {
   color: white;
 }
 
-
-
 h1{
   margin-top:0;
 }
-
 
 #container:hover + .custom-cursor{
  opacity: 0;
 }
 
-
 a {
   color: white;
 }
  
- 
- 
-
 website-link{
   display: flex;
   position: relative;
@@ -62,9 +55,6 @@ website-link{
   color: white;
   justify-content: center;
 }
-
-
-
 
 .block {
   display: -webkit-flex;
@@ -88,12 +78,10 @@ website-link{
   height: 8vh;
 }
 
+/* BOTTONI */
 #buttonContainer {
-  /* background-color: #E8197C; */
   text-align: center;
-  margin-left: 4vw;
-  margin-right: 4vw;
-  /* height: 8vh; */
+  margin: 0 4vw;
 }
 
 .button-places {
@@ -132,6 +120,17 @@ span {
  line-height: normal;
 }
 
+/* TESTI */
+.titoli{
+  font-family: "Milligram Bold";
+  mix-blend-mode: difference;
+}
+.text{
+  mix-blend-mode: difference;
+}
+
+
+/* MOBILE */
 @media (min-width: 744px) {
   .text{
     font-family: "Milligram Text";
