@@ -31,15 +31,15 @@
   
 #back{
     position: relative;
+    width:fit-content;
+    margin:2vh 2vw;
+    padding: 0 2vh;
+    border-radius: 100vh;
+
     background-color: black;
     color:white;
     text-decoration: none;
     font-size: 2rem;
-    width:fit-content;
-    margin:2vh 2vw;
-    margin-top: 2vh;
-    padding: 0 2vh;
-    border-radius: 100vh;
 }
 
 a{
@@ -47,6 +47,17 @@ a{
     text-decoration: none;
     mix-blend-mode: difference;
 }
+
+#main-title{
+  font-family: "Milligram Macro Bold";
+  font-size: 13.2vw;
+  width: 100vw;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
 
 #program_container{
 margin:0 16vw ;
@@ -60,21 +71,15 @@ p {
   width: 100%;
   margin:0.5vh 0;
   font-size: 1.2rem;
-  /* background-color: blueviolet; */
 }
-
-#main-title{
-    font-family: "Milligram Macro Bold";
-    font-size: 13.2vw;
-    width: 100vw;
-    height: auto;
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-  }
+.titoli{
+  font-size: 3rem;
+}
 
 .program.titoli{
     text-align: center;
+    margin-top: 2vh;
+
 }
   
 .dDay{
@@ -85,7 +90,7 @@ p {
 }
 
 .pDay.titoli{
-    margin:10vh 0 2vh 0;
+    margin:8vh 0 2vh 0;
 }
 
 .titoletti{
@@ -96,7 +101,6 @@ p {
 
   .name{
     font-family: "Milligram Bold";
-    
     margin-top: 1vh;
   }
 
@@ -110,25 +114,30 @@ p {
   }
 
   .incontro{
-   padding: 5vh 0; 
+   padding: 4vh 0; 
    border-bottom: black 1px solid;
   }
   
 
   @media (max-width: 744px) {
     #program_container{
-      margin:3vw;
-      padding-bottom: 5vh;
+      margin:4vw;
+      padding-bottom: 4vh;
       }
+      
       .pDay.titoli{
-        font-size:10rem;
-        margin:6vh 0 1vh 0;
+        font-size:2.7rem;
+        margin:4vh 0 1vh 0;
     }
 
     .titoletti{
       font-size: 1.5rem;
     }
     .incontro{
-      padding:3vh 0;
+      padding:4vh 0;
+    }
+    
+    p{
+      margin:1vh 0;
     }
   }
