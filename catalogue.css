@@ -349,11 +349,11 @@ a{
     margin-right: 4vw;
   }
 
-  #selected-image {
+  /* #selected-image {
     position: absolute;
-    top: 50%; /* Position the top edge of the element at the middle of the container */
-    left: 0; /* Align the left edge of the element with the left edge of the container */
-    transform: translateY(-50%); /* Shift the element up by half of its own height */
+    top: 50%; 
+    left: 0; 
+    transform: translateY(-50%); 
     display: none;
     width: 100vw;
     height: auto;
@@ -361,7 +361,7 @@ a{
     border: 2px solid white;
     mix-blend-mode: normal;
     z-index: 100;
-   }
+   } */
 
 }
 
