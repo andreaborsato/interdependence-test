@@ -192,6 +192,12 @@ span {
     align-items: center;
   }
 
+  .partnerLogos img{
+    height: 100%;
+    width: auto;
+    mix-blend-mode: difference;
+  }
+
   /* #buttonContainer {
     display: flex; 
     justify-content: space-between; 
@@ -362,9 +368,15 @@ span {
     margin-right: 4vw;
     margin-top: 2vh;
     height: 10vh;
-    width: 90%;
+    width: auto;
     mix-blend-mode: difference;
     align-items: center;
+  }
+
+  .partnerLogos img{
+    height: 90%;
+    width: auto;
+    mix-blend-mode: difference;
   }
 
   .button-places {
@@ -488,11 +500,7 @@ span {
 
 
 
-.partnerLogos img{
-  height: 100%;
-  width: auto;
-  mix-blend-mode: difference;
-}
+
 
 
 
