@@ -350,22 +350,13 @@ a{
     margin-right: 4vw;
   }
 
-  /* #selected-image {
-    position: absolute;
-    top: 50%; 
-    left: 0; 
-    transform: translateY(-50%); 
-    display: none;
-    width: 100vw;
-    height: auto;
-    background-color: white;
-    border: 2px solid white;
-    mix-blend-mode: normal;
-    z-index: 100;
-   } */
 
   #selected-image {
     display: none;
+   }
+
+   #selected-image svg{
+      display: none;
    }
 
 }

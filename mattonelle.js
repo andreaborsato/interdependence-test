@@ -129,7 +129,9 @@ myContainers.forEach(function(singleContainer){
 
 })
 
-
+document.addEventListener('load', function(){
+    myImage.style.display = "none";
+});
 
 imgEl.addEventListener('load', function() {
     // The image has fully loaded, now you can get its width
