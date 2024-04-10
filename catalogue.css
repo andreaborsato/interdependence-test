@@ -106,7 +106,7 @@ a{
     margin-top: 2vh;
     /* width: 100%; */
     font-family: "Milligram Bold";
-    font-size: 6vw;
+    font-size: 3rem;
     text-align: center;
     mix-blend-mode: difference;
     /* border: 2px solid red; */
@@ -119,7 +119,7 @@ a{
     width: fit-content;
     height: fit-content;
     font-family: "Milligram Bold";
-    font-size: 2vw;
+    font-size: 2rem;
     text-align: left;
     border-radius: 4vw;
     margin-top: 8vh; 
@@ -278,7 +278,7 @@ a{
     text-align: center;
     width: auto;
     font-family: "Milligram Bold";
-    font-size: 8vw;
+    font-size: 2.7rem;
     mix-blend-mode: difference;
     /* margin-top: 5vw;  */
   }
@@ -292,11 +292,11 @@ a{
     /* font-size: 2rem; */
     text-align: left;
     /* border: 2px solid red; */
-    margin-top: 10vh;
+    margin-top: 8vh;
     box-sizing: border-box; /* This makes the width include the padding */
     width: fit-content;
     height: fit-content;
-    font-size: 6vw;
+    font-size: 1.5rem;
     border-radius: 4vw;
     padding: .5vw 2vw;
     display: flex;
