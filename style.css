@@ -107,12 +107,13 @@ website-link{
   height: 8vh;
 }
 
-#buttonContainer {
-  /* background-color: #E8197C; */
+/* #buttonContainer {
+
   text-align: center;
-  margin-left: 4vw;
-  margin-right: 4vw;
-  /* height: 8vh; */
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 96vw;
+
 }
 
 .button-places {
@@ -128,7 +129,9 @@ website-link{
   background-color: black;
   color: white;
   text-align: center;
-}
+} */
+
+
 
 .button-places:hover {
  border: 3px solid black;
@@ -155,17 +158,19 @@ span {
   .text{
     font-family: "Milligram Text";
     font-size: 1.2rem;
-    width: 80%;
-    padding: 3vh 16.6vw 0vh 16.6vw;
-    margin: auto;
+    width: auto;
+    padding: 3vh 0 0vh 0;
+    margin-left: 16vw;
+    margin-right: 16vw;
     text-align: left;
   }
 
   .titoli{
     position: relative;
     /* left: 50%;  */
-    margin: auto;
-    width: 47%;
+    margin-left: 16vw;
+    margin-right: 16vw;
+    width: auto;
     font-family: "Milligram Bold";
     font-size: 3rem;
     text-align: left;
@@ -176,14 +181,38 @@ span {
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
     margin-top: 2vh;
     height: 20vh;
-    width: 90%;
+    width: auto;
     mix-blend-mode: difference;
     align-items: center;
   }
+
+  #buttonContainer {
+    display: flex; /* Makes the container a flex container */
+    justify-content: space-between; /* Distributes space between the buttons evenly */
+    text-align: center;
+    margin-left: 2vw; /* Adjusted to 4vw for desired margin */
+    margin-right: 2vw; /* Adjusted to 4vw for desired margin */
+    width: auto;
+   }
+   
+   .button-places {
+    font-family: "Milligram Bold";
+    font-size: 1.3vw;
+    width: 20vw;
+    height: 8vh;
+    line-height: 7.2vh;
+    margin: auto; /* Centers the buttons within the container */
+    display: inline-table;
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+   }
 
   .custom-cursor {
     position: fixed;
@@ -329,8 +358,8 @@ span {
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin-left: 3vw;
-    margin-right: 5vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
     margin-top: 2vh;
     height: 10vh;
     width: 90%;

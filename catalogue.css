@@ -54,7 +54,8 @@ a{
 
 #main-title{
   font-family: "Milligram Macro Bold";
-  font-size: 13.5vw;
+  /* font-size: 13.5vw; */
+  font-size: 8rem;
   width: 100vw;
   height: auto;
   color: white;
