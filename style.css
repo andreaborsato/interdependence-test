@@ -72,7 +72,11 @@ a {
   color: white;
 }
  
- 
+p a {
+  color: white;
+  mix-blend-mode: difference;
+  text-decoration: underline;
+  }
  
 
 website-link{
@@ -617,3 +621,5 @@ website-link{
   height: auto;
 
 }
+
+
