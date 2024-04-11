@@ -305,6 +305,15 @@ a{
     justify-content: flex-start; /* Aligns items horizontally to the start */
   }
 
+  .catalogue.titoletti{
+    text-align: center;
+    justify-content: center;
+    mix-blend-mode: difference;
+    color: white;
+    margin: auto;
+    width: 100%;
+  }
+
   .mattonelle-container {
     display: flex;
     overflow-x:scroll;
