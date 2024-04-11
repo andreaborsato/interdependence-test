@@ -39,6 +39,13 @@ let incontri = [
       name: "Graeme Brooker",
       description:  "How does the RCA Interior Design Programme engage with the challenges we are currently facing in the world? Climate Curriculums describes thinking and work that relates to climatic and socially based challenges.",
     },
+    {
+      day: "2", 
+      time: "18.00-19.00",
+      title: "Spatial design experiences for sustainable futures in hospitality",
+      name: "Francesco Scullica and Elena Elgani with a group of students",
+      description:  "What future for hospitality? Presentation of research experiences and projects for the application of sustainability principles in the hospitality sector.",
+    },
 
 
     {

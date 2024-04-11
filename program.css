@@ -96,7 +96,7 @@ p {
 .titoletti{
     font-family: "Milligram Bold";
     font-size: 2rem;
-    margin-top: 2vh;
+    margin: 2vh 0 0 0;
   }
 
   .name{
@@ -125,16 +125,20 @@ p {
       padding-bottom: 4vh;
       }
       
+      .program.titoli{
+        line-height: 80%;
+        margin: 8vh 0;
+    }
       .pDay.titoli{
         font-size:2.7rem;
-        margin:4vh 0 1vh 0;
+        margin:4vh 0 0.5vh 0;
     }
 
     .titoletti{
       font-size: 1.5rem;
     }
     .incontro{
-      padding:4vh 0;
+      padding:2vh 0;
     }
     
     p{

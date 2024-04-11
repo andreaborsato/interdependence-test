@@ -273,9 +273,7 @@ a{
     position: relative;
     margin: auto;
     width: 50%;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 2vh;
+    margin: 8vh 10vw ;
     text-align: center;
     width: auto;
     font-family: "Milligram Bold";
