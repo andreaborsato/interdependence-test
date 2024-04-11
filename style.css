@@ -252,9 +252,9 @@ span {
     transform: translate(-50%, -50%) scale(.7);
   }
 
-  .footer-mobile{
+  /* .footer-mobile{
     display: none;
-  }
+  } */
   .footer-desktop {
     display: flex;
     width: 100vw;
@@ -271,7 +271,7 @@ span {
     font-family: "Milligram Text";
     display: flex;
     flex-direction: column;
-    width: 30%; /* Each container takes up half the width of the footer */
+    width: 100%; /* Each container takes up half the width of the footer */
     position: relative;
     color: white;
     /* margin-right: 2vw; /* Centers the containers within the footer 
@@ -281,6 +281,10 @@ span {
   
    .section{
     font-family: "Milligram Bold";
+   }
+   .credits{
+    padding-right: 6vw;
+    /* background-color: aquamarine; */
    }
    /* .website {
     font-family: "Milligram Text";
@@ -450,25 +454,22 @@ span {
     height: 4vh;
   }
 
-.footer-desktop {
+/* .footer-desktop {
    display: none;
- }
+ } */
 
- .footer-mobile {
+ /* .footer-mobile {
   font-family: "Milligram Text";
   display: flex;
-  flex-wrap: wrap; /* Allows items to wrap onto new lines */
+  flex-wrap: wrap; /* Allows items to wrap onto new lines 
   color: white;
   background-color: black;
   height: fit-content;
   width: 100vw;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 4vh;
-  padding-bottom: 4vh;
+  margin:4vh 0;
   overflow-x: hidden;
   
- }
+ } */
  
  #column-50l {
   padding-top: 4vh;
