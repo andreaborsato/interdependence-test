@@ -157,6 +157,9 @@ website-link{
  line-height: normal;
 }
 
+.bold-text {
+  font-family: "Milligram Text Bold";
+}
 
 /* DESKTOP */
 @media (min-width: 744px) {
@@ -174,7 +177,7 @@ website-link{
     font-family: "Milligram Text Bold";
     font-size: 1.2rem;
     width: auto;
-    margin-top: 1vh;
+    margin-top: 2vh;
     margin-left: 16vw;
     margin-right: 16vw;
     text-align: left;
@@ -374,7 +377,7 @@ website-link{
     font-family: "Milligram Text Bold";
     font-size: 1rem;
     width: auto;
-    margin-top: 1vh;
+    margin-top: 2vh;
     margin-left: 4vw;
     margin-right: 4vw;
     text-align: left;
