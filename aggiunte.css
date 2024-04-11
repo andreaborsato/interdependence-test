@@ -78,8 +78,6 @@ h1{
   font-family: "Milligram Text";
   font-size: 1.2rem;
   margin-left: 1vw;
-  line-height: normal;
-  vertical-align: auto;
 }
 
 .imgLocation {
@@ -88,8 +86,7 @@ h1{
 
 .boldTextLocation  {
   font-family: "Milligram Bold";
-  line-height: normal;
-  vertical-align: auto;
+
 }
 
 #external-link {

@@ -113,16 +113,19 @@ website-link{
 
 #buttonContainer {
   text-align: center;
+  /* margini a 2vw
   width: 98vw;
-  margin: 4vh 0.6vw 8vh 0.6vw;
-  /* margin: 4vh 2vw; */
-  /* height: 8vh; */
+  margin: 4vh 0.6vw 8vh 0.6vw; */
+  width: 86vw;
+  margin: 4vh 6.6vw 8vh 6.6vw;
 }
 
 .button-places {
   font-family: "Milligram Bold";
   font-size: 1.2vw;
-  width: 22.1vw;
+  /*MARGINI A 2VW
+  width: 22.1vw; */
+  width: 19.1vw;
   height: 8vh;
   line-height: 7.2vh;
   margin: 0% 1vw;
