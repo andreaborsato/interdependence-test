@@ -74,15 +74,17 @@ p {
   font-size: 1.2rem;
 }
 .titoli{
-  font-size: 3rem;
+  font-size: 2.7rem;
 }
 
 .program.titoli{
     text-align: center;
     margin-top: 2vh;
+    margin-bottom: 0;
 }
 .program.titoletti{
   text-align: center;
+  margin: 0;
 }
   
 .dDay{
@@ -129,13 +131,14 @@ p {
       }
       
       .program.titoli{
-        line-height: 80%;
+        /* line-height: 80%; */
         margin-top: 8vh;
     }
     .program.titoletti{
       text-align: center;
       justify-content: center;
       margin-bottom: 8vh;
+      padding: 0;
     }
 
       .pDay.titoli{
