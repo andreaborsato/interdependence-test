@@ -366,6 +366,16 @@ span {
     /* margin-top: 5vw;  */
   }
 
+  .sottotitoli{
+    font-family: "Milligram Text Bold";
+    font-size: 1rem;
+    width: auto;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    text-align: left;
+  }
+
   .titoletti{
     position: relative;
     /* left: 50%;  */
