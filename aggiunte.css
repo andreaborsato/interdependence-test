@@ -89,6 +89,12 @@ h1{
 
 }
 
+#external-link {
+font-family: "Milligram Text";
+font-size: 1.2rem;
+color: black;
+}
+
 
   /* MOBILE */
 @media (max-width: 743px) {
