@@ -97,22 +97,16 @@ h1{
     /* border: 3px solid blue; */
     text-align: center;
     flex-direction: column-reverse;
-    /* position: relative; */
     margin-left: 4vw;
     margin-right: 4vw;
     width: 92vw;
   }
   
   .imgLocationContainer {
-    /* border: 2px solid red; */
-    width: 100%;
-    /* display: inline-block; */
-    /* margin-right: 1.2vw; */
-  
+    width: 100%; 
   }
 
   .textLocationContainer {
-    /* border: 2px solid green; */
     width: 100%;
     position: relative;
     display: block;
