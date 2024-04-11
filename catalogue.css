@@ -129,6 +129,13 @@ a{
     align-items: center; /* Aligns items vertically in the center */
     justify-content: flex-start; /* Aligns items horizontally to the start */
   }
+  .catalogue.titoletti{
+    text-align: center;
+    justify-content: center;
+    mix-blend-mode: difference;
+    color: white;
+    margin: auto;
+  }
 
   .mattonelle-container{
     display: flex;
