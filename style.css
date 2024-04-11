@@ -164,6 +164,90 @@ website-link{
   font-family: "Milligram Text Bold";
 }
 
+
+.footer-desktop {
+  display: flex;
+  width: 100vw;
+  height: fit-content;
+  padding: 4vh 16vw 8vh 16vw;
+  background-color: black;
+  /* margin-left: auto;
+  margin-right: auto; */
+  overflow-x: hidden;
+  
+ }
+ 
+ .website-container {
+  font-family: "Milligram Text";
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Each container takes up half the width of the footer */
+  position: relative;
+  color: white;
+  /* margin-right: 2vw; /* Centers the containers within the footer 
+  margin-left: 2vw; */
+  /* background-color: aqua; */
+ }
+
+ .section{
+  font-family: "Milligram Bold";
+ }
+ .credits{
+  padding-right: 6vw;
+  /* background-color: aquamarine; */
+ }
+ /* .website {
+  font-family: "Milligram Text";
+  display: flex;
+ }
+ .social {
+  font-family: "Milligram Text";
+  display: flex;
+ }
+
+ .poli {
+  font-family: "Milligram Text";
+  display: flex;
+  flex-direction: column;
+ } */
+
+ .poli img {
+  width: 100%; /* Makes the image responsive */
+  padding-top: 2vh;
+  /* background-color: aqua; */
+ }
+
+ 
+ /* Add this to make the .website divs on the same line and evenly spaced */
+ .website-spacer {
+  position: relative;
+  display: flex;
+  width: auto;
+  height: fit-content;
+  text-align: left;
+ }
+/*    
+ .website-spacer > div {
+  position: relative;
+  width: fit-content;
+ }
+  */
+ /* Additional CSS for the text container to make it fit the entire width */
+  .text-container {
+  width: fit-content;
+  text-align: left; /* Centers the text horizontally */
+ }
+ 
+.footer-text{
+  margin-top: 2vh;
+}
+
+#credits{
+  display: none;
+}
+
+
+
 /* DESKTOP */
 @media (min-width: 744px) {
   .text{
@@ -261,85 +345,7 @@ website-link{
   /* .footer-mobile{
     display: none;
   } */
-  .footer-desktop {
-    display: flex;
-    width: 100vw;
-    height: fit-content;
-    padding: 4vh 2vw 8vh 2vw;
-    background-color: black;
-    /* margin-left: auto;
-    margin-right: auto; */
-    overflow-x: hidden;
-    
-   }
-   
-   .website-container {
-    font-family: "Milligram Text";
-    display: flex;
-    flex-direction: column;
-    width: 100%; /* Each container takes up half the width of the footer */
-    position: relative;
-    color: white;
-    /* margin-right: 2vw; /* Centers the containers within the footer 
-    margin-left: 2vw; */
-    /* background-color: aqua; */
-   }
   
-   .section{
-    font-family: "Milligram Bold";
-   }
-   .credits{
-    padding-right: 6vw;
-    /* background-color: aquamarine; */
-   }
-   /* .website {
-    font-family: "Milligram Text";
-    display: flex;
-   }
-   .social {
-    font-family: "Milligram Text";
-    display: flex;
-   }
-
-   .poli {
-    font-family: "Milligram Text";
-    display: flex;
-    flex-direction: column;
-   } */
-
-   .poli img {
-    width: 100%; /* Makes the image responsive */
-    padding-top: 2vh;
-   }
-  
-   
-   /* Add this to make the .website divs on the same line and evenly spaced */
-   .website-spacer {
-    position: relative;
-    display: flex;
-    width: auto;
-    height: fit-content;
-    text-align: left;
-   }
-/*    
-   .website-spacer > div {
-    position: relative;
-    width: fit-content;
-   }
-    */
-   /* Additional CSS for the text container to make it fit the entire width */
-    .text-container {
-    width: fit-content;
-    text-align: left; /* Centers the text horizontally */
-   }
-   
-  .footer-text{
-    margin-top: 2vh;
-  }
-  
-  #credits{
-    display: none;
-  }
 
 
 }
@@ -460,9 +466,27 @@ website-link{
     height: 4vh;
   }
 
-/* .footer-desktop {
-   display: none;
- } */
+.footer-desktop {
+   flex-direction: column;
+   justify-content: space-around;
+   height: auto;
+   width: auto;
+   
+   padding: 4vw;
+   padding-bottom: 8vh;
+   background-color: black;
+ }
+ .poli img{
+  width:100%;
+ }
+
+ .website-container{
+  padding:2vh 0;
+  
+ }
+ .website-spacer{
+  padding:0.5vh 0;
+ }
 
  /* .footer-mobile {
   font-family: "Milligram Text";
@@ -477,7 +501,7 @@ website-link{
   
  } */
  
- #column-50l {
+ /* #column-50l {
   padding-top: 4vh;
   width: 46%;
   margin-left: 4vw;
@@ -488,7 +512,7 @@ website-link{
   padding-top: 4vh;
   width: 46%;
   text-align: right; /* Aligns text to the right */
-  display: none;
+ /* display: none;
  }
 
  #column-50l-2 {
@@ -500,7 +524,7 @@ website-link{
  #column-50r-2 {
   padding-top: 4vh;
   width: 52%;
-  text-align: right; /* Aligns text to the right */
+  text-align: right; /* Aligns text to the right 
  }
  
  #column-50l > div{
@@ -514,7 +538,7 @@ website-link{
  }
  #column-50r-2 > div{
   margin-top: 2vh;
- }
+ } */
 
 
  
