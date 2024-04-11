@@ -111,6 +111,10 @@ website-link{
   height: 8vh;
 }
 
+.spacer2vh{
+  height: 2vh;
+}
+
 #buttonContainer {
   text-align: center;
   /* margini a 2vw
