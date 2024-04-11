@@ -259,11 +259,10 @@ span {
     display: flex;
     width: 100vw;
     height: fit-content;
-    margin-top: 6vh;
-    padding-bottom: 6vh;
+    padding: 4vh 2vw 8vh 2vw;
     background-color: black;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     overflow-x: hidden;
     
    }
@@ -275,9 +274,9 @@ span {
     width: 30%; /* Each container takes up half the width of the footer */
     position: relative;
     color: white;
-    margin-right: 2vw; /* Centers the containers within the footer */
-    margin-left: 2vw;
-    background-color: aqua;
+    /* margin-right: 2vw; /* Centers the containers within the footer 
+    margin-left: 2vw; */
+    /* background-color: aqua; */
    }
   
    .section{
@@ -310,15 +309,14 @@ span {
     display: flex;
     width: auto;
     height: fit-content;
-
     text-align: left;
    }
-   
+/*    
    .website-spacer > div {
     position: relative;
     width: fit-content;
    }
-   
+    */
    /* Additional CSS for the text container to make it fit the entire width */
     .text-container {
     width: fit-content;
@@ -327,14 +325,8 @@ span {
    
   .footer-text{
     margin-top: 2vh;
-  
   }
   
-  
-  .first{ 
-    margin-top: 0;
-  }
-
   #credits{
     display: none;
   }
