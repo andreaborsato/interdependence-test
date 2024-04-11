@@ -90,10 +90,12 @@ h1{
 }
 
 #external-link {
-font-family: "Milligram Text";
-font-size: 1.2rem;
-color: black;
-}
+  font-family: "Milligram Text";
+  margin-top: 4vh;
+  font-size: 1.2rem;
+  color: black;
+  mix-blend-mode: difference;
+  }
 
 
   /* MOBILE */
@@ -122,5 +124,13 @@ color: black;
     font-size: 1rem;
     margin: 0vh 0vh 4vh 0vh;
   }
+
+  #external-link {
+    font-family: "Milligram Text";
+    margin-top: 4vh;
+    font-size: 1rem;
+    color: black;
+    mix-blend-mode: difference;
+    }
 
 }
