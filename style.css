@@ -7,6 +7,11 @@
   src: url('font/Milligram-Text-Regular.ttf');
 }
 
+@font-face {
+  font-family: "Milligram Text Bold";
+  src: url('font/Milligram-Text-Bold.otf');
+}
+
 
 
 /* body {
@@ -165,6 +170,16 @@ span {
     text-align: left;
   }
 
+  .sottotitoli{
+    font-family: "Milligram Text Bold";
+    font-size: 1.2rem;
+    width: auto;
+    margin-top: 1vh;
+    margin-left: 16vw;
+    margin-right: 16vw;
+    text-align: left;
+  }
+
   .titoli{
     position: relative;
     /* left: 50%;  */
@@ -176,6 +191,7 @@ span {
     text-align: left;
     /* margin-top: 5vw;  */
   }
+
 
   .partnerLogos{
     position: relative;
@@ -341,7 +357,7 @@ span {
     width: auto;
     margin-left: 4vw;
     margin-right: 4vw;
-    padding-top: 3vh;
+    padding-top: 2vh;
     text-align:left;
   }
 
@@ -356,6 +372,26 @@ span {
     font-size: 7vw;
     text-align: left;
     /* margin-top: 5vw;  */
+  }
+
+  .titoletti{
+    position: relative;
+    /* left: 50%;  */
+    margin-left: 4vw;
+    margin-right: 4vw;
+    /* width: 100%; */
+    font-family: "Milligram Bold";
+    /* font-size: 2rem; */
+    text-align: left;
+    /* border: 2px solid red; */
+    margin-top: 2vh;
+    box-sizing: border-box; /* This makes the width include the padding */
+    width: auto;
+    font-size: 1.5rem;
+    border-radius: 4vw;
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: flex-start; /* Aligns items horizontally to the start */
   }
 
   .partnerLogos{
