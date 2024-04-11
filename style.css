@@ -259,48 +259,46 @@ span {
     display: flex;
     width: 100vw;
     height: fit-content;
-    margin-top: 5vh;
-    padding-bottom: 5vh;
+    margin-top: 6vh;
+    padding-bottom: 6vh;
     background-color: black;
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
+    
    }
    
-   .website-container5 {
-    font-family: "Milligram Text";
-    display: flex;
-    flex-direction: column;
-    width: 28%; /* Each container takes up half the width of the footer */
-    position: relative;
-    padding-top: 4vh;
-    color: white;
-    margin-right: 2vw; /* Centers the containers within the footer */
-    margin-left: 2vw;
-   }
-   .website-container1 {
-    font-family: "Milligram Text";
-    display: flex;
-    flex-direction: column;
-    width: 25%; /* Each container takes up half the width of the footer */
-    position: relative;
-    padding-top: 4vh;
-    color: white;
-    margin-left: 2vw; /* Centers the containers within the footer */
-   }
-   .website-container2 {
+   .website-container {
     font-family: "Milligram Text";
     display: flex;
     flex-direction: column;
     width: 30%; /* Each container takes up half the width of the footer */
     position: relative;
-    padding-top: 4vh;
     color: white;
-   
+    margin-right: 2vw; /* Centers the containers within the footer */
+    margin-left: 2vw;
+    background-color: aqua;
+   }
+  
+   .section{
+    font-family: "Milligram Bold";
+   }
+   /* .website {
+    font-family: "Milligram Text";
+    display: flex;
+   }
+   .social {
+    font-family: "Milligram Text";
+    display: flex;
    }
 
-   
-   .website-container5 img {
+   .poli {
+    font-family: "Milligram Text";
+    display: flex;
+    flex-direction: column;
+   } */
+
+   .poli img {
     width: 100%; /* Makes the image responsive */
     padding-top: 2vh;
    }
@@ -311,6 +309,8 @@ span {
     position: relative;
     display: flex;
     width: auto;
+    height: fit-content;
+
     text-align: left;
    }
    
@@ -326,7 +326,7 @@ span {
    }
    
   .footer-text{
-    margin-top: 4vh;
+    margin-top: 2vh;
   
   }
   
