@@ -150,7 +150,7 @@ website-link{
   position: relative;
  }
 
-span {
+ .buttonSpan {
  /* border: 2px solid red; */
  display: inline-block;
  vertical-align: middle;
