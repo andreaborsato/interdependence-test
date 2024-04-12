@@ -112,8 +112,9 @@ p {
   }
 
   .time{
-    background-color: white;
-    color:black;
+    /* background-color: black; */
+    /* color:black; */
+    mix-blend-mode: normal;
     width:fit-content;
     padding: 0.5vh 2vh;
     margin-bottom:1vh;

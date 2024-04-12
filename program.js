@@ -1,6 +1,8 @@
 let days = ["Tuesday 16", "Wednesday 17", "Thursday 18","Friday 19","Saturday 20","Sunday 21",];
 let propClass = ["day", "time", "title", "name", "description"];
 
+let coolors = [ "#FF9900","#00BFFC", "#FFE500", "#17E683","#C9DB00",  "#CC00FF", "#FF003D", " #6100FF"]
+
 let dDay;
 let pDay;
 let divI;
@@ -29,7 +31,7 @@ for (let j = 0; j < incontri.length; j++) { //creo i div degli incontri
   divI = document.createElement("div");
   divI.classList.add("incontro");
   divI.classList.add(incontri[j].day);
-  console.log(divI);
+  // console.log(divI);
   programCtn.appendChild(divI);
 
   for (let i = 1; i < propClass.length; i++) { //creo i paragrafi
@@ -50,4 +52,21 @@ for (let j = 0; j < incontri.length; j++) { //creo i div degli incontri
 let titles = Array.from(document.getElementsByClassName("title"));
 titles.forEach((e) => {
   e.classList.add("titoletti");
+});
+
+let times = Array.from(document.getElementsByClassName("time"));
+console.log(times)
+times.forEach((e, i) => {
+  e.classList.add(incontri[i].day);
+  console.log(e)
+
+for(let i=1; i<=7; i++){
+  if (e.classList.contains(i)) {
+    e.setAttribute("style", "mix-blend-mode: normal" );
+    
+    e.setAttribute("style", "background-color:" + coolors[i-1] );
+    e.style.color="black"
+    
+  }
+}
 });
