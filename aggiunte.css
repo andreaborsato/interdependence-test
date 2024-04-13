@@ -60,6 +60,9 @@ h1{
   margin-right: 2vw;
 }
 
+.containerLocation  a {
+  color:black;
+}
 .imgLocationContainer {
   /* border: 2px solid red; */
   width: 47vw;
