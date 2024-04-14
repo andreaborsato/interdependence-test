@@ -37,7 +37,7 @@ let incontri = [
       time: "15.30-16.30",
       title:"The Hidden Neighborhood.",
       name: "Francesca Piredda, Mariana Ciancia, Silvia Barozzi, & students ",
-      description: "In collaboration with Off Campus San Vittore, design students developed transmedia documentaries to include prison in the storytelling of the neighborhood. Il Quartiere nascosto. In collaborazione con Off Campus San Vittore, gli studenti di design hanno sviluppato documentari transmediali per includere il carcere di San Vittore nel racconto del quartiere",
+      description: "In collaboration with Off Campus San Vittore, design students developed transmedia documentaries to include prison in the storytelling of the neighborhood. Il Quartiere nascosto. In collaborazione con Off Campus San Vittore, gli studenti di design hanno sviluppato documentari transmediali per includere il carcere di San Vittore nel racconto del quartiere.",
     },
     {
       day: "2", 
