@@ -30,7 +30,7 @@ let incontri = [
         "Design and design schools in/for the ecological transition. </br> Care, proximity, empowering, communing: four keywords to orient design education",
       name: "Ezio Manzini",
       description:
-        "How does the RCA Interior Design Programme engage with the challenges we are currently facing in the world? Climate Curriculums describes thinking and work that relates to climatic and socially based challenges.",
+        "How do design and design education change if, instead of focusing on designing for the production of new products, we focus on designing for care, proximity, empowering and communing?",
     },
     {
       day: "2",
