@@ -115,6 +115,13 @@ let incontri = [
       }, 
       {
         day: "4", 
+        time: "16.30-17.00",
+        title: "Interior Design - a relational practice",
+        name: "Suzie Attiwill, School of Architecture & Urban Design, RMIT University, Melbourne, Australia",
+        description: "Thinking time before space, interior design is re-framed as a relational practice of making arrangements and connections immersed in social-cultural-historical-mental-political-environmental ecologies.",
+      },
+      {
+        day: "4", 
         time: "17.00-18.00",
         title: "Exo-publishing for social innovation",
         name: "Elena Caratti, Sara Lavazza e Francesco Scagliarini",
