@@ -68,6 +68,19 @@ a{
 /* MOBILE */
 @media (max-width: 743px) {
 
+    #credits-container {
+        width: 96vw;
+        position: relative;
+        display: flex;
+        color: black;
+        text-align: left;
+        font-family: "Milligram Text";
+        font-size: 1.1rem;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        padding: 0;
+    }
+
     .titoli{
         position: relative;
         margin: auto;
