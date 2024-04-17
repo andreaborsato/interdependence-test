@@ -66,6 +66,10 @@ a{
   text-decoration: none;
 }
 
+.footer-desktop a {
+  text-decoration: underline;
+}
+
 #main-title{
   font-family: "Milligram Macro Bold";
   /* font-size: 13.5vw; */

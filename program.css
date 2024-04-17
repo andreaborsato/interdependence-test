@@ -28,6 +28,10 @@
     background-color: white;
     color: white;
   }
+
+  .footer-desktop a {
+    text-decoration: underline;
+  }
   
 
   #back{
