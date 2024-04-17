@@ -105,6 +105,7 @@ h1{
     display: flex;
     width: 40vw;
     margin: auto;
+    padding-bottom: 6vh;
   }
 
   #ovale img {
