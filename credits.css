@@ -26,8 +26,6 @@ a{
         text-align: center;
         color:white;
         mix-blend-mode: difference;
-        /* border: 2px solid red; */
-        /* margin-top: 5vw;  */
       }
 
 #credits-container {
@@ -49,8 +47,8 @@ a{
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin-left: 3vw;
-    margin-right: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
     margin-top: 2vh;
     height: 20vh;
     width: auto;
