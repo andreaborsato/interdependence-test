@@ -12,8 +12,7 @@ a{
 }
 
 
-
-
+ /* DESKTOP */
 @media (min-width: 744px) {
 
     .titoli{
@@ -32,15 +31,15 @@ a{
       }
 
 #credits-container {
-    width: 92vw;
+    width: 96vw;
     position: relative;
     display: flex;
     color: black;
     text-align: left;
     font-family: "Milligram Text";
     font-size: 1.1rem;
-    margin-left: 4vw;
-    margin-right: 4vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
     padding: 0;
 }
 
@@ -76,7 +75,7 @@ a{
 @media (max-width: 743px) {
 
     #credits-container {
-        width: 96vw;
+        width: 92vw;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -84,8 +83,8 @@ a{
         text-align: left;
         font-family: "Milligram Text";
         font-size: 1.1rem;
-        margin-left: 2vw;
-        margin-right: 2vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
         padding: 0;
     }
 
