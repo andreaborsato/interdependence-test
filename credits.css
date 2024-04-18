@@ -9,6 +9,13 @@ a{
 .spacer-piccolo-testi{
     height: 1vh;
 }
+
+#col-1, #col-2, #col-3, #col-4 {
+  width: 100%;
+  margin-left: 1vw;
+}
+
+
 @media (min-width: 744px) {
 
     .titoli{
@@ -39,10 +46,7 @@ a{
     padding: 0;
 }
 
-#col-1, #col-2, #col-3, #col-4 {
-    width: 100%;
-    margin-left: 1vw;
-}
+
 
 .partnerLogos{
     position: relative;
