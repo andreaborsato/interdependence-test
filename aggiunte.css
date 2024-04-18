@@ -114,6 +114,46 @@ h1{
     height: auto;
   }
 
+  #scuole {
+    position: relative;
+    /* display: flex; */
+    width: 94vw;
+    /* border: 3px solid blue; */
+    /* text-align: center; */
+    /* position: relative; */
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-bottom: 6vh;
+    color: black;
+  }
+
+  #scuoleIntro {
+    font-family: "Milligram Bold";
+    width: 94vw;
+    margin-left: 1vw;
+    font-size: 1.2rem;
+    padding-bottom: 4vh;
+  }
+
+  #scuoleLista {
+    font-family: "Milligram Text";
+    /* height: 200vh; */
+    width: 98vw;
+    font-size: 1.2rem;
+    /* column-count: 5;
+    column-width: 15vw;
+    column-gap: 2vw; */
+    display: flex;
+  }
+
+  .scuoleColumn {
+    width: 22.3vw;
+    margin: 0 1vw;
+  }
+
+  #scuoleLista p  {
+    padding-bottom: 2vh;
+  } 
 
   /* MOBILE */
 @media (max-width: 743px) {
@@ -144,6 +184,39 @@ header {
     font-family: "Milligram Text";
     font-size: 1rem;
     margin: 0vh 0vh 4vh 0vh;
+  }
+
+  #scuole {
+    position: relative;
+    width: 91vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    padding-bottom: 4vh;
+    color: black;
+  }
+
+  #scuoleIntro {
+    font-family: "Milligram Bold";
+    width: 91vw;
+    padding-bottom: 2vh;
+    font-size: 1rem;
+
+  }
+
+  #scuoleLista {
+    font-family: "Milligram Text";
+    width: 91vw;
+    font-size: 1rem;
+
+  }
+
+  .scuoleColumn {
+    width: 91vw;
+  }
+
+  #scuoleLista {
+    flex-direction: column;
+    width: 92vw;
   }
 
   #external-link {
