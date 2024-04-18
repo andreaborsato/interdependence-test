@@ -79,6 +79,7 @@ a{
         width: 96vw;
         position: relative;
         display: flex;
+        flex-direction: column;
         color: black;
         text-align: left;
         font-family: "Milligram Text";
