@@ -1,5 +1,6 @@
 body{
     color: black;
+    overflow-x: hidden;
 }
 
 a{
@@ -10,10 +11,7 @@ a{
     height: 1vh;
 }
 
-#col-1, #col-2, #col-3, #col-4 {
-  width: 100%;
-  margin-left: 1vw;
-}
+
 
 
 @media (min-width: 744px) {
@@ -66,6 +64,11 @@ a{
     width: auto;
     mix-blend-mode: difference;
   }
+
+  #col-1, #col-2, #col-3, #col-4 {
+    width: 100%;
+    margin-left: 1vw;
+  }
 }
 
 
@@ -115,5 +118,10 @@ a{
     height: 90%;
     width: auto;
     mix-blend-mode: difference;
+  }
+
+  #col-1, #col-2, #col-3, #col-4 {
+    width: 100%;
+    margin-left: 1vw;
   }
 }
