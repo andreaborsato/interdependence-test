@@ -103,7 +103,7 @@ let incontri = [
         day: "4",
         time: "15.00-15.30",
         title:"Design education in Japan: nature centricity",
-        name: "Setsu Ito, University of Tsukuba, Japan",
+        name: "Shinobu Ito -  University of Tokyo-RCAST, Japan",
         description: "Japan's original science, technology, art and design for the creation of a sustainable and inclusive society.",
       },
       {
@@ -116,7 +116,7 @@ let incontri = [
       {
         day: "4", 
         time: "16.30-17.00",
-        title: "Interior Design - a relational practice",
+        title: "Interior Design - a relational practice - EVENT CANCELLED",
         name: "Suzie Attiwill, School of Architecture & Urban Design, RMIT University, Melbourne, Australia",
         description: "Thinking time before space, interior design is re-framed as a relational practice of making arrangements and connections immersed in social-cultural-historical-mental-political-environmental ecologies.",
       },
